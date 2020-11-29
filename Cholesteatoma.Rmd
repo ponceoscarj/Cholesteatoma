@@ -29,6 +29,26 @@ webshot::install_phantomjs()
 
 ```
 
+
+
+## Open Data
+>Click any of the following links to view the documents
+
+
+
+| Stage  |      File     |  
+|:----------:|:-------------:|
+| Protocol | [Prospero](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=184029)|
+| Search strategy |  |
+| Abstract screening | |
+| Full-text screening |  |
+| Included studies |  |
+| Raw Outcome data | [Available as `.CSV`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/6%20Extracted%20Data/outcomes.csv)|
+| Analysis codes | [Script as `R Markdown`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/Cholesteatoma.Rmd)|
+
+
+
+
 ```{r cleaning, echo=FALSE, message=FALSE, warning=FALSE}
 pao <- read.csv("6 Extracted Data/outcomes.csv")
 
@@ -261,7 +281,11 @@ plotmd_single_studies <- function(words, numbers, sizebox, box_ma_results, overa
 
 ## Forest plots
 
-*Air bone gap difference in children with choleasteatoma undergoing Canal wall up vs. Canal wall down*
+### Figure 2 (Air-bone gap)
+<details><summary>Show</summary>
+
+*Air bone gap difference in decibels (db) in children with choleasteatoma undergoing Canal wall up vs. Canal wall down*
+
 ```{r abg, fig.height=3, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 abg <- subset(pao, variable=='cont' & outcome=='ABG')
 abg <- abg[!(abg$refid==55),]
@@ -283,7 +307,14 @@ plotmd_single_studies(words = tmd1$b,
 
 ```
 
+</details>
+
+
+### Figure 3 (Air conduction)
+<details><summary>Show</summary>
+
 *Air conduction difference in children with choleasteatoma undergoing Canal wall up vs. Canal wall down*
+
 ```{r ac, fig.height=3, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 ac <- subset(pao, variable=='cont' & outcome=='AC')
 
@@ -330,8 +361,15 @@ forestplot(tmd2$b,
 
 ```
 
+</details>
+
+
+
+### Figure 4 (Recurrence)
+<details><summary>Show</summary>
 
 *Difference in risk of recurrence in children with choleasteatoma undergoing Canal wall up vs. Canal wall down*
+
 ```{r recurrence, fig.height=4, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 #recurrence longest followup
 rcr <- subset(pao, variable=='dic' & outcome=='recurrence')
@@ -354,7 +392,16 @@ plotrr_single_studies(words = trecu$b,
 
 ```
 
+</details>
+
+
+
+
+### Figure 4 (Residual)
+<details><summary>Show</summary>
+
 *Difference in risk of residual tissue in children with choleasteatoma undergoing Canal wall up vs. Canal wall down*
+
 ```{r residual, fig.height=4, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 #residual 
 res <- subset(pao, variable=='dic' & outcome=='residual')
@@ -372,10 +419,16 @@ plotrr_single_studies(words = tresidual$b,
                       overall_box = 1, xcoord = c(0.06, 0.25 , 1, 4,  16))
 ```
 
+</details>
 
+
+
+### Figure 5 (Recidivism)
+<details><summary>Show</summary>
 
 
 *Difference in risk of recidivism in children with choleasteatoma undergoing Canal wall up vs. Canal wall down*
+
 ```{r recidivism, fig.height=6, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 #meta analysis recidivism longest followup
 prerec <- subset(pao, outcome=='recidivism' | outcome=='recurrence' | outcome=='residual')
@@ -412,3 +465,6 @@ plotrr_single_studies(words = treci$b,
 #pao[pao$outcome == 'AC THRESHOLD', c(1:3,5,6,10,11)]
 
 ```
+
+
+</details>
