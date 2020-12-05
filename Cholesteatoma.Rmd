@@ -277,7 +277,7 @@ plotmd_single_studies <- function(words, numbers, sizebox, box_ma_results, overa
 ### Figure 2 
 <details><summary><b>Show figure -</b> Differences in <b>Air Bone Gap (db)</b> after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
-```{r abg, fig.height=3, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
+```{r abg, fig.height=3, fig.width=14, echo=FALSE, message=FALSE, warning=FALSE}
 abg <- subset(pao, variable=='cont' & outcome=='ABG')
 abg <- abg[!(abg$refid==55),]
 
