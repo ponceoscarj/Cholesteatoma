@@ -277,7 +277,7 @@ plotmd_single_studies <- function(words, numbers, sizebox, box_ma_results, overa
 ### Figure 2 
 <details><summary><b>Show figure -</b> Differences in <b>Air Bone Gap (db)</b> after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
-```{r abg, fig.height=3, fig.width=14, echo=FALSE, message=FALSE, warning=FALSE}
+```{r abg, fig.height=3, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 abg <- subset(pao, variable=='cont' & outcome=='ABG')
 abg <- abg[!(abg$refid==55),]
 
@@ -305,7 +305,7 @@ plotmd_single_studies(words = tmd1$b,
 ### Figure 3 
 <details><summary><b>Show figure -</b> Difference in <b>Air Conduction (Hz)</b> after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
-```{r ac, fig.height=3, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
+```{r ac, fig.height=3, fig.width=11, echo=FALSE, message=FALSE, warning=FALSE}
 ac <- subset(pao, variable=='cont' & outcome=='AC')
 
 md2 <- md(ac)
