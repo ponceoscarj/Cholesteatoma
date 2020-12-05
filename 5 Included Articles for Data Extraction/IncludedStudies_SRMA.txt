@@ -1,0 +1,389 @@
+TY  - JOUR
+A1  - Godinho, Ricardo A.
+A1  - Kamil, Syed H.
+A1  - Lubianca, Jose N.
+A1  - Keogh, Ivan J.
+A1  - Eavey, Roland D.
+T1  - Pediatric cholesteatoma: canal wall window alternative to canal wall down mastoidectomy
+AB  - OBJECTIVE: A previous pilot series described a hybrid mastoidectomy technique, canal wall window (CWW), which substituted for the canal wall down (CWD) procedure and involved slitting the posterior canal wall. The current, larger series compares the results of the CWW procedure with conventional surgical techniques.STUDY DESIGN: Retrospective analysis of 78 pediatric ears.SETTING: Academic tertiary referral center.PATIENTS: The mean patient age was 13.5 years.MAIN OUTCOME MEASURE(S): The data analyzed included ears later requiring conversion from CWW to CWD, dry/moist ear results, recidivation determined by two separate methods, and audiometric data statistically analyzed using independent-samples analysis (unpaired, two-tailed Student's t test).RESULTS: First, of 42 CWW ear procedures, 6 (14%) later required conversion to CWD. Second, dry ear results were as follows: for CWW, 94%; for CWD, 92%; and for CWU (canal wall up), 90%. Third, recidivation determined at 1 year (standard rate) was, for CWW, 19.5%; for CWD, 0%; and for CWU, 7.7%; the at-risk calculation rate was, for CWW, 27%; for CWD, 0%; and for CWU, 8.3%. The 6-year recidivation rate for all three surgical techniques was 0%. 4). The mean preoperative-to-postoperative four-tone air-bone gap change was, for CWW, from 29.7 to 26.4 dB; for CWD, from 32.9 to 39.0 dB; and for CWU, from 21.0 to 25.2 dB (postoperative CWW to CWD, p < 0.005). A postoperative air-bone gap result of 0 to 20 dB was achieved as follows: with CWW, in 13 of 36 ears; with CWD, in 2 of 14 ears; and with CWU, in 9 of 22 ears.CONCLUSION: Frequently, a CWW procedure can be substituted for a traditional CWD procedure. In the extended series, the CWW technique continued to provide hearing results similar to CWU rather than to CWD procedures in a young population who will bear the surgical outcome for many decades.
+ID  - 55
+AN  - 15891650
+J2  - Otol Neurotol
+AD  - Godinho, Ricardo A. Pediatric Otolaryngology Service and Department of Otolaryngology, Massachusetts Eye and Ear Infirmary, Boston, MA 02114, USA.
+DA  - May
+IS  - 3
+JF  - Otology & Neurotology
+KW  - AdolescentAudiometry, Pure-ToneAuditory ThresholdChildCholesteatoma, Middle Ear/pp [Physiopathology]*Cholesteatoma, Middle Ear/su [Surgery]*Ear Canal/su [Surgery]FemaleHearingHumansMale*Mastoid/su [Surgery]Otologic Surgical Procedures/st [Standards]*Otologic Surgical ProceduresReoperationRetrospective Studies
+LA  - English
+N1  - Godinho RAKamil SHLubianca JNKeogh IJEavey RD
+SP  - 466-71
+M3  - Comparative StudyEvaluation StudiesJournal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=medc&AN=15891650http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:15891650&id=doi:10.1097%2F01.mao.0000169768.93173.96&issn=1531-7129&isbn=&volume=26&issue=3&spage=466&pages=466-71&date=2005&title=Otology+%26+Neurotology&atitle=Pediatric+cholesteatoma%3A+canal+wall+window+alternative+to+canal+wall+down+mastoidectomy.&aulast=Godinho&pid=%3Cauthor%3EGodinho+RA%3C%2Fauthor%3E&%3CAN%3E15891650%3C%2FAN%3E
+VL  - 26
+Y1  - 2005
+ER  - 
+TY  - JOUR
+A1  - Ueda, H.
+A1  - Nakashima, T.
+A1  - Nakata, S.
+T1  - Surgical strategy for cholesteatoma in children
+AB  - OBJECTIVE: We reviewed our experience with childhood cholesteatoma in children under 15 years old. Based on cumulative postoperative data, we propose a modified canal-wall-up technique in conjunction with a planned, staged operation.METHODS: From 1982 to 1997, 56 children with cholesteatoma (58 ears, total) underwent surgery in our department. In the early period (1982-1990), canal wall-down mastoidectomy was performed in 52% (21 of 40 ears), and canal wall-up mastoidectomy in 48% (the remaining 19 ears). In the late period (1991-1997), 18 ears with cholesteatoma underwent surgery. The canal-wall up mastoidectomy was performed in 89% (16 ears), and canal-wall-down mastoidectomy in the remaining 11% (two ears).RESULTS: In the early period (1982-1990), cholesteatoma recurred more frequently in the canal-wall-up mastoidectomy group than in the canal-wall down mastoidectomy group (53 vs. 14%). Other postoperative complications, such as erosion of the mastoid cavity, otorrhea, and perforation of the eardrum, occurred more frequently in the canal-wall-down mastoidectomy group than in the canal-wall-up mastoidectomy group. In the late period (1991-1997), in the canal-wall-up mastoidectomy group, ten ears underwent one-stage surgery. Planned staged tympanoplasty was completed in six ears. After one-stage surgery, four of ten ears experienced residual cholesteatoma. Two of the recurrent ears had undergone planned staged tympanoplasty. As revealed by postoperative computed tomography (CT) images, 12 of 15 ears had aeration in the attic and antrum as well as in the tympanic cavity. In these cases, no attic retraction pocket formation was observed.CONCLUSION: Our strategy for pediatric cholesteatoma in the future is to use canal-wall-up mastoidectomy when possible. If aeration in the attic and antrum is observed by preoperative CT-scan image and no erosion in the malleus and incus exists, the one-stage surgery will be chosen. If no aeration is observed by CT-scan and/or erosion exists in the surgical findings, planned staged tympanoplasty will be necessary. This strategy allows a high incidence of aeration of the attic and antrum, and prevents the formation of the attic retraction pocket while enabling the early detection of residual cholesteatoma by means of CT.
+ID  - 66
+AN  - 11240319
+J2  - Auris Nasus Larynx
+AD  - Ueda, H. Department of Otolaryngology, Nagoya University, School of Medicine, 65 Tsurumai-Cho, Showa-Ku, Nagoya, Japan. uehiromi@tsuru.med.nagoya-u.ac.jp
+DA  - Apr
+IS  - 2
+JF  - Auris, Nasus, Larynx
+KW  - AdolescentChildChild, PreschoolCholesteatoma, Middle Ear/dg [Diagnostic Imaging]Cholesteatoma, Middle Ear/pp [Physiopathology]*Cholesteatoma, Middle Ear/su [Surgery]FemaleHearingHumansMaleNeoplasm, Residual/dg [Diagnostic Imaging]*Otorhinolaryngologic Surgical ProceduresPostoperative PeriodRetrospective StudiesTomography, X-Ray ComputedTreatment Outcome
+LA  - English
+N1  - Ueda HNakashima TNakata S
+SP  - 125-9
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=medc&AN=11240319http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:11240319&id=doi:10.1016%2Fs0385-8146%2800%2900095-x&issn=0385-8146&isbn=&volume=28&issue=2&spage=125&pages=125-9&date=2001&title=Auris%2C+Nasus%2C+Larynx&atitle=Surgical+strategy+for+cholesteatoma+in+children.&aulast=Ueda&pid=%3Cauthor%3EUeda+H%3C%2Fauthor%3E&%3CAN%3E11240319%3C%2FAN%3E
+VL  - 28
+Y1  - 2001
+ER  - 
+TY  - JOUR
+A1  - Lau, T.
+A1  - Tos, M.
+T1  - Cholesteatoma in children: recurrence related to observation period
+AB  - From 1965 to 1978, 122 children with cholesteatoma had one-stage surgery. Follow-up examinations were carried out several times, with the last two taking place in 1980/81 and 1985/86. Ninety-eight percent of the children were seen at follow-up; the median observation time was 11 years, with a range of three to 21 years. The increase in recurrence rate with increasing observation time was analyzed. In 1980/81 there was a total recurrence rate of 12 percent of patients, including residual cholesteatoma in the tympanic cavity in 8%, in the attic in 2%, and recurrent cholesteatoma in 2%. In 1985/86 the recurrence rate had increased to 17%, distributed among residual cholesteatoma in the tympanic cavity in 10.6%, in the attic in 1.6%, and recurrent cholesteatoma in 4.8%. The recurrence rate was the same regardless of whether modified canal-wall-up mastoidectomy or canal-wall-down mastoidectomy had been employed. We conclude that cholesteatoma surgery should be individualized according to pathologic findings in the tympanic cavity, tubal function, and size of the mastoid air cell system. Small cholesteatomas confined to the tympanic cavity may be removed by tympanoplasty alone, without mastoidectomy. In ears with adhesive otitis, canal-wall-down mastoidectomy is preferred; and in ears with a reasonably good tubal function and a large air cell system, canal-wall-up mastoidectomy is recommended. The long-term results reported here seem to indicate that, in children, canal-wall-up mastoidectomy is preferable to canal-wall-down mastoidectomy.
+ID  - 73
+AN  - 3434674
+J2  - Am J Otolaryngol
+AD  - Lau, T. Ear, Nose, and Throat Department, Gentofte University Hospital, Hellerup, Denmark.
+DA  - Nov-Dec
+IS  - 6
+JF  - American Journal of Otolaryngology
+KW  - AdolescentChildChild, PreschoolCholesteatoma/di [Diagnosis]*Cholesteatoma/su [Surgery]Ear Diseases/di [Diagnosis]*Ear Diseases/su [Surgery]FemaleFollow-Up StudiesHearing TestsHumansMaleMastoid/su [Surgery]MethodsRecurrenceReoperationTime FactorsTympanoplasty
+LA  - English
+N1  - Lau TTos M
+SP  - 364-75
+M3  - Comparative StudyJournal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=medc&AN=3434674http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:3434674&id=doi:10.1016%2Fs0196-0709%2887%2980022-4&issn=0196-0709&isbn=&volume=8&issue=6&spage=364&pages=364-75&date=1987&title=American+Journal+of+Otolaryngology&atitle=Cholesteatoma+in+children%3A+recurrence+related+to+observation+period.&aulast=Lau&pid=%3Cauthor%3ELau+T%3C%2Fauthor%3E&%3CAN%3E3434674%3C%2FAN%3E
+VL  - 8
+Y1  - 1987
+ER  - 
+TY  - JOUR
+A1  - Gocmen, Hakan
+A1  - Kilic, Rahmi
+A1  - Ozdek, Ali
+A1  - Kizilkaya, Zeynep
+A1  - Safak, M. Asim
+A1  - Samim, Erdal
+T1  - Surgical treatment of cholesteatoma in children
+AB  - OBJECTIVES: To present our experience in the surgical treatment of cholesteatoma in children.STUDY DESIGN: Retrospective clinical trial.PATIENTS AND METHOD: Charts of 114 patients who met the inclusion criteria of the study were examined. Surgical results were compared with respect to applied surgical methods. Cholesteatoma recidivism (CR) and hearing improvement were the main parameters which were examined.RESULTS: The mean age was 13 years and mean follow-up period was 3.7 years. A total of 200 operations performed on 114 children: 114 children operated at the first stage, 84 children underwent a second surgery, and 2 a third surgery. At initial operation; canal wall-up (CWU) tympanomastoidectomy was the choice of surgical procedure in 35 (31%) patients, and canal wall-down (CWD) tympanomastoidectomy was preferred for the other 79 (69%) patients. At final analysis; 26 of 114 (23%) patients had CWU procedure, 67 patients (59%) had CWD procedure and 21 patients (18%) had radical mastoidectomy. (CR) rate was 26 and 16%, respectively for CWU and CWD procedures for initial surgeries (P = 0.248). Hearing improvement was achieved in 36% of CWU procedures and 38% of CWD procedures (P = 0.957). Hearing deterioration was observed in 36% of CWU procedures and 47% of CWD procedures (P = 0.328).CONCLUSION: There was no significant difference between CWU and CWD procedures with respect to CR, hearing improvement, and hearing deterioration. Therefore, choose of surgical procedure should be individualized for each patient. In our opinion; open techniques must be employed in the presence of extensive disease, whereas the closed technique is reserved for those with a more localized problem.
+ID  - 84
+AN  - 12880666
+J2  - Int J Pediatr Otorhinolaryngol
+AD  - Gocmen, Hakan. ENT Department, Ministry of Health, Ankara Research and Training Hospital, Ankara, Turkey.
+DA  - Aug
+IS  - 8
+JF  - International Journal of Pediatric Otorhinolaryngology
+KW  - AdolescentChildChild, PreschoolCholesteatoma, Middle Ear/pp [Physiopathology]*Cholesteatoma, Middle Ear/su [Surgery]Decision Making*Ear Canal/su [Surgery]FemaleHearingHearing Loss/et [Etiology]HumansMale*Mastoid/su [Surgery]Otologic Surgical Procedures/ae [Adverse Effects]*Otologic Surgical Procedures/mt [Methods]ReoperationRetrospective StudiesTreatment Outcome
+LA  - English
+N1  - Gocmen HKilic ROzdek AKizilkaya ZSafak MASamim E
+SP  - 867-72
+M3  - Comparative StudyJournal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=medc&AN=12880666http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:12880666&id=doi:10.1016%2Fs0165-5876%2803%2900130-7&issn=0165-5876&isbn=&volume=67&issue=8&spage=867&pages=867-72&date=2003&title=International+Journal+of+Pediatric+Otorhinolaryngology&atitle=Surgical+treatment+of+cholesteatoma+in+children.&aulast=Gocmen&pid=%3Cauthor%3EGocmen+H%3C%2Fauthor%3E&%3CAN%3E12880666%3C%2FAN%3E
+VL  - 67
+Y1  - 2003
+ER  - 
+TY  - JOUR
+A1  - Dodson, E. E.
+A1  - Hashisaki, G. T.
+A1  - Hobgood, T. C.
+A1  - Lambert, P. R.
+T1  - Intact canal wall mastoidectomy with tympanoplasty for cholesteatoma in children
+AB  - OBJECTIVE/HYPOTHESIS: Cases of cholesteatoma in pediatric patients were reviewed to determine which factors influence the outcome of surgical treatment. Cholesteatoma is considered a more aggressive disease in children than in adults. The outcomes of intact canal wall (ICW) mastoidectomy and canal wall down (CWD) mastoidectomy were assessed, as comparisons of different surgical technique.STUDY DESIGN: A retrospective analysis of all cases of pediatric cholesteatoma treated at a single institution by the senior author (P.R.L.) over a period of 11 years was conducted.METHODS: Patient information was collected from an otology database, patient records, and audiology files.RESULTS: Sixty-six patients, aged 10 months to 18 years, were treated and followed for an average of 37.7 months (range 12.2 months to 12.5 y). ICW mastoidectomy with tympanoplasty was the primary surgical treatment in 41 patients. Nineteen percent had residual disease at a planned second stage surgery and 22% developed recurrent cholesteatoma for a total recidivism rate of 41%. A SRT of less than 30 dB HL was achieved in 75% of these patients. Seventeen patients underwent CWD mastoidectomy with tympanoplasty initially. Two patients (12%) had residual cholesteatoma found at a planned second state procedure, and no recurrent cholesteatoma was encountered. Seventy-two percent maintained a SRT of less than 30 dB HL.CONCLUSIONS: These results support the continued use of ICW mastoidectomy with tympanoplasty for pediatric cholesteatoma. If planned second stage surgery is necessary, the long-term results of an ear with useful hearing and few problems with chronic medical care are gratifying. For reasons of anatomy or in an only hearing ear, CWD mastoidectomy with tympanoplasty provides a safe ear and good hearing results. Mastoid cavity care must be maintained indefinitely in many cases.
+ID  - 100
+AN  - 9665242
+J2  - Laryngoscope
+AD  - Dodson, E E. University of Virginia, Department of Otolaryngology--Head and Neck Surgery, University of Virginia Medical Center, Charlottesville 22908, USA.
+DA  - Jul
+IS  - 7
+JF  - Laryngoscope
+KW  - AdolescentAudiometryBone ConductionChildChild, PreschoolCholesteatoma, Middle Ear/di [Diagnosis]*Cholesteatoma, Middle Ear/su [Surgery]Combined Modality TherapyFemaleHumansInfantMale*Mastoid/su [Surgery]RecurrenceReoperationRetrospective StudiesTreatment Outcome*Tympanoplasty/mt [Methods]
+LA  - English
+N1  - Dodson EEHashisaki GTHobgood TCLambert PR
+SP  - 977-83
+M3  - Comparative StudyJournal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=medc3&AN=9665242http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:9665242&id=doi:10.1097%2F00005537-199807000-00005&issn=0023-852X&isbn=&volume=108&issue=7&spage=977&pages=977-83&date=1998&title=Laryngoscope&atitle=Intact+canal+wall+mastoidectomy+with+tympanoplasty+for+cholesteatoma+in+children.&aulast=Dodson&pid=%3Cauthor%3EDodson+EE%3C%2Fauthor%3E&%3CAN%3E9665242%3C%2FAN%3E
+VL  - 108
+Y1  - 1998
+ER  - 
+TY  - JOUR
+A1  - McGuire, J. K.
+A1  - Wasl, H.
+A1  - Harris, T.
+A1  - Copley, G. J.
+A1  - Fagan, J. J.
+T1  - Management of pediatric cholesteatoma based on presentations, complications, and outcomes
+AB  - OBJECTIVES: To highlight important aspects and paradigms in the management of paediatric cholesteatoma in a developing world setting.METHODS: A retrospective audit was conducted of paediatric cholesteatomas that underwent tympanomastoid surgery between 2008 and 2012 at the Red Cross War Memorial Children's Hospital in Cape Town. The following was audited: initial presentation; cholesteatoma complications; types of surgery, intraoperative findings and outcomes of surgery in terms of hearing, otorrhoea and recidivism; and the reliability of follow-up and how this might influence the type of surgery.RESULTS: Fifty-seven children aged 2-13 years with 61 cholesteatomas (4 bilateral) were reviewed. Fifty-five mastoidectomies were done; 11% presented with complicated cholesteatoma. Referrals from primary care were significantly delayed (>6 months) in 76%. Canal wall down surgery was done in 71%. Forty-five percent had improved hearing (within 15dB of better hearing ear) and a further 15% had no or only mild hearing loss. Ossicular chain involvement and ossicles encased in inflammatory tissue were associated with poorer hearing outcomes. Sixty-four percent of ears remained dry. Forty-five percent of the canal wall up, and 23% of canal wall down mastoidectomies had recidivism. Twenty-six percent of patients were lost to follow-up.CONCLUSIONS: Children are likely to present with advanced cholesteatoma with ossicular chain involvement. The children present with high rates of complications, poor pre-operative hearing and have high recurrence rates post-surgery. Referral from primary health care is delayed. Canal wall down procedures may be appropriate in a setting where patient follow-up is unreliable and access to operating theatre is limited. Copyright © 2015 Elsevier Ireland Ltd. All rights reserved.
+ID  - 205
+AN  - 26746615
+J2  - Int J Pediatr Otorhinolaryngol
+AD  - McGuire, J K. Division of Otolaryngology, University of Cape Town Medical School, Cape Town, South Africa. Electronic address: jkmcguire2@gmail.com.Wasl, H. Division of Otolaryngology, University of Cape Town Medical School, Cape Town, South Africa.Harris, T. Division of Otolaryngology, University of Cape Town Medical School.Copley, G J. Paediatric Otolaryngology, Red Cross Children's Hospital, Division of Otolaryngology, University of Cape Town Medical School, Cape Town, South Africa.Fagan, J J. Head of Otolaryngology, University of Cape Town, Cape Town, South Africa.
+DA  - Jan
+JF  - International Journal of Pediatric Otorhinolaryngology
+KW  - AdolescentChildChild, Preschool*Cholesteatoma, Middle Ear/co [Complications]*Cholesteatoma, Middle Ear/su [Surgery]*Developing Countries*Ear OssiclesFemaleHearingHearing Loss/et [Etiology]Hearing TestsHumansLost to Follow-UpMaleMastoid/su [Surgery]RecurrenceReferral and ConsultationRetrospective StudiesSouth AfricaTime FactorsTreatment Outcome
+LA  - English
+N1  - McGuire JKWasl HHarris TCopley GJFagan JJS0165-5876(15)00548-0
+SP  - 69-73
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med12&AN=26746615http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:26746615&id=doi:10.1016%2Fj.ijporl.2015.10.041&issn=0165-5876&isbn=&volume=80&issue=&spage=69&pages=69-73&date=2016&title=International+Journal+of+Pediatric+Otorhinolaryngology&atitle=Management+of+pediatric+cholesteatoma+based+on+presentations%2C+complications%2C+and+outcomes.&aulast=McGuire&pid=%3Cauthor%3EMcGuire+JK%3C%2Fauthor%3E&%3CAN%3E26746615%3C%2FAN%3E
+VL  - 80
+Y1  - 2016
+ER  - 
+TY  - JOUR
+A1  - Sergi, B.
+A1  - Galli, J.
+A1  - Battista, M.
+A1  - De Corso, E.
+A1  - Paludetti, G.
+T1  - Dealing with paediatric cholesteatoma: how we changed our management
+AB  - We reviewed our series of surgeries for paediatric cholesteatoma to assess outcomes and functional results considering the extension of disease and surgical techniques. Between January 2003 and December 2009, 36 patients (range 6-14 years) were operated on for cholesteatoma. We considered the sites involved by the cholesteatoma (mastoid, antrum, attic, middle ear, Eustachian tube), surgical techniques used (intact canal wall, canal wall down) and how our habits changed over the years; moreover, we evaluated ossicular chain conditions and how we managed the ossiculoplasty. As outcomes, we considered the percentage of residual and recurrent cholesteatoma for each technique and hearing function (air bone gap closure, high frequencies bone conduction hearing loss) at follow-up. Intact canal wall was performed in 20 patients and canal wall down in 13 patients, in 9 as first surgery. In both groups, we observed improvement of the air bone gap; in the intact canal wall group, a residual cholesteatoma was observed in 6 patients whereas, during follow-up, 2 patients who underwent a canal wall down showed a recurrent cholesteatoma that was treated in an outpatient setting. Eradication of cholesteatoma and restoration of hearing function in paediatric patients present unique surgical challenges. Our experience shows an increased choice of intact canal wall over the years. Therefore, it is important for the surgeon to counsel parents about the probable need for multiple surgeries, especially if an intact canal wall mastoidectomy is performed.
+ID  - 238
+AN  - 24843225
+J2  - Acta Otorhinolaryngol Ital
+AD  - Sergi, B. Clinic of Otorhinolaryngology, Universita Cattolica del Sacro Cuore, Roma, Italy.Galli, J. Clinic of Otorhinolaryngology, Universita Cattolica del Sacro Cuore, Roma, Italy.Battista, M. Clinic of Otorhinolaryngology, Universita Cattolica del Sacro Cuore, Roma, Italy.De Corso, E. Clinic of Otorhinolaryngology, Universita Cattolica del Sacro Cuore, Roma, Italy.Paludetti, G. Clinic of Otorhinolaryngology, Universita Cattolica del Sacro Cuore, Roma, Italy.
+DA  - Apr
+IS  - 2
+JF  - Acta Otorhinolaryngologica Italica
+KW  - AdolescentChild*Cholesteatoma/su [Surgery]*Ear Diseases/su [Surgery]FemaleHumansMale
+LA  - English
+N1  - Sergi BGalli JBattista MDe Corso EPaludetti G
+SP  - 138-43
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med10&AN=24843225http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:24843225&id=doi:&issn=0392-100X&isbn=&volume=34&issue=2&spage=138&pages=138-43&date=2014&title=Acta+Otorhinolaryngologica+Italica&atitle=Dealing+with+paediatric+cholesteatoma%3A+how+we+changed+our+management.&aulast=Sergi&pid=%3Cauthor%3ESergi+B%3C%2Fauthor%3E&%3CAN%3E24843225%3C%2FAN%3E
+VL  - 34
+Y1  - 2014
+ER  - 
+TY  - JOUR
+A1  - Drahy, A.
+A1  - De Barros, A.
+A1  - Lerosey, Y.
+A1  - Choussy, O.
+A1  - Dehesdin, D.
+A1  - Marie, J. P.
+T1  - Acquired cholesteatoma in children: strategies and medium-term results
+AB  - OBJECTIVES: To assess paediatric cholesteatoma surgical management strategies, residual disease and recurrence rates and especially the medium-term auditory impact.MATERIAL AND METHODS: Retrospective study of 22 cases of acquired middle ear cholesteatoma selected from a series of 77 children under the age of 16 operated for cholesteatoma between 1st January 2000 and 31st December 2003 on the basis of the following criteria: first-line surgical management with postoperative follow-up greater than four years. Surgical strategies, preoperative and postoperative (at 1 year and at the final visit) audiograms and residual disease and recurrence rates were analysed.RESULTS: A canal wall up tympanoplasty was performed in 82% of cases as first-line procedure and a canal wall down tympanoplasty was performed in 32% of cases. Residual cholesteatoma was observed in 9% of cases and recurrent disease was observed in 18% of cases. The mean preoperative hearing loss was 26dB with an air-bone gap of 23dB with values of 26dB and 20dB respectively at the end of follow-up.CONCLUSION: The majority of children were operated by two-stage canal wall up tympanoplasty. Long-term hearing results remained stable and close to preoperative values. The recurrence rate (residual disease and relapse) was low (27%), as reported in the literature. Copyright © 2012. Published by Elsevier Masson SAS.
+ID  - 270
+AN  - 22475975
+J2  - Eur Ann Otorhinolaryngol Head Neck Dis
+AD  - Drahy, A. Service d'ORL-CCF, CHU Charles-Nicolle, Rouen cedex, France.
+DA  - Oct
+IS  - 5
+JF  - European annals of otorhinolaryngology, head & neck diseases
+KW  - AdolescentAudiometry, Pure-ToneChildChild, PreschoolCholesteatoma, Middle Ear/co [Complications]Cholesteatoma, Middle Ear/pa [Pathology]*Cholesteatoma, Middle Ear/su [Surgery]*Ear Canal/su [Surgery]FemaleFollow-Up StudiesHearing Loss, Conductive/et [Etiology]Hearing Loss, Conductive/rh [Rehabilitation]HumansMaleOtorhinolaryngologic Surgical ProceduresRetrospective StudiesSecondary PreventionTreatment OutcomeTympanoplasty/mt [Methods]*Tympanoplasty
+LA  - English
+N1  - Drahy ADe Barros ALerosey YChoussy ODehesdin DMarie JPS1879-7296(12)00017-8
+SP  - 225-9
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med8&AN=22475975http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:22475975&id=doi:10.1016%2Fj.anorl.2011.10.011&issn=1879-7296&isbn=&volume=129&issue=5&spage=225&pages=225-9&date=2012&title=European+annals+of+otorhinolaryngology%2C+head+%26+neck+diseases&atitle=Acquired+cholesteatoma+in+children%3A+strategies+and+medium-term+results.&aulast=Drahy&pid=%3Cauthor%3EDrahy+A%3C%2Fauthor%3E&%3CAN%3E22475975%3C%2FAN%3E
+VL  - 129
+Y1  - 2012
+ER  - 
+TY  - JOUR
+A1  - Chadha, N. K.
+A1  - Jardine, A.
+A1  - Owens, D.
+A1  - Gillett, S.
+A1  - Robinson, P. J.
+A1  - Maw, A. R.
+T1  - A multivariate analysis of the factors predicting hearing outcome after surgery for cholesteatoma in children
+AB  - OBJECTIVE: To explore factors influencing hearing outcomes in children treated by canal wall up (CWU) and canal wall down (CWD) mastoid surgery.METHODS: Retrospective cohort study including three units in Bristol and Bath, UK. Ninety consecutive children underwent cholesteatoma mastoid surgery, with the first procedure between 1998 and 2001; minimum follow up was three disease-free years.RESULTS: The CWU and CWD cohorts significantly differed in pre-operative stage and hearing. After disease eradication, air conduction (AC) thresholds changed by +4.0 dB (95 per cent confidence intervals (95% CI) -2.0, 10.1) in the CWD group and -5.3 dB (95% CI -9.3, 1.3) in the CWU group (p=0.029). Using multiple linear regression to account for cohort differences, AC thresholds were increased by: pre-operative AC threshold (p<0.0001), initial ossicular stage (p=0.013), and CWD-surgery (p=0.005).CONCLUSION: Disease-free hearing was better with CWU-surgery, less initial ossicular damage, and better pre-operative hearing. Worse initial disease increased the likelihood of CWD surgery. Wider use of ossiculoplasty in the CWU cohort (51 per cent vs 5 per cent) may partially explain the superior results.
+ID  - 340
+AN  - 17040585
+J2  - J Laryngol Otol
+AD  - Chadha, N K. Department of Ear, Nose and Throat Surgery, Royal United Hospital, Bath, UK. neil@chadhanet.com
+DA  - Nov
+IS  - 11
+JF  - Journal of Laryngology & Otology
+KW  - AdolescentChildChild, PreschoolCholesteatoma, Middle Ear/co [Complications]*Cholesteatoma, Middle Ear/su [Surgery]Cohort StudiesEnglandFemale*HearingHearing Disorders/et [Etiology]HumansMale*Mastoid/su [Surgery]Multivariate AnalysisOtologic Surgical Procedures/mt [Methods]Retrospective StudiesTreatment Outcome
+LA  - English
+N1  - Chadha NKJardine AOwens DGillett SRobinson PJMaw AR
+SP  - 908-13
+M3  - Journal ArticleMulticenter Study
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med5&AN=17040585http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:17040585&id=doi:10.1017%2FS0022215106002179&issn=0022-2151&isbn=&volume=120&issue=11&spage=908&pages=908-13&date=2006&title=Journal+of+Laryngology+%26+Otology&atitle=A+multivariate+analysis+of+the+factors+predicting+hearing+outcome+after+surgery+for+cholesteatoma+in+children.&aulast=Chadha&pid=%3Cauthor%3EChadha+NK%3C%2Fauthor%3E&%3CAN%3E17040585%3C%2FAN%3E
+VL  - 120
+Y1  - 2006
+ER  - 
+TY  - JOUR
+A1  - Shirazi, Mobeen A.
+A1  - Muzaffar, Kamil
+A1  - Leonetti, John P.
+A1  - Marzo, Sam
+T1  - Surgical treatment of pediatric cholesteatomas
+AB  - OBJECTIVE: : Management of pediatric cholesteatomas remains controversial. We reviewed our 16-year experience in the surgical treatment of cholesteatomas in children and describe a treatment paradigm.STUDY DESIGN: : The authors conducted a retrospective review.METHODS: : A total of 106 mastoidectomies (86 for an acquired cholesteatoma and 20 for a congenital cholesteatoma) were performed in children 16 years old and younger from 1988 to 2003. Follow up ranged from 2 years to 12 years with a mean follow-up period of 6 years. Hearing outcomes, cholesteatoma recidivism, and dry mastoid cavity were the main outcomes measured.RESULTS: : Seven (7%) patients had revision surgery for cholesteatoma recidivism. Rates of cholesteatoma recurrence for canal all up (CWU) and canal wall down (CWD) mastoidectomy groups were similar (8% vs. 6%). The percentage of patient with good serviceable hearing (pure-tone average </=25 dB) was higher in those with a CWU mastoidectomy as compared with the CWD mastoidectomy group (81% vs. 47%) (P < .05). Extent of disease and stapes superstructure erosion on presentation were significant (P < .05) predictors of both cholesteatoma recidivism and poor hearing. All 106 subjects studied had a dry mastoid and 78 patients (74%) had a maintenance-free cavity at the time the study was completed.CONCLUSION: : The treatment of pediatric cholesteatomas should be individualized with CWD mastoidectomy chosen for patients with recurrent or more extensive disease. We conclude that the CWU procedure is an adequate surgical option for treating most acquired and congenital cholesteatomas, preventing disease recurrence, and maintaining good hearing outcomes.
+ID  - 343
+AN  - 16954988
+J2  - Laryngoscope
+AD  - Shirazi, Mobeen A. Department of Otolaryngology-Head and Neck Surgery, Loyola University Medical Center, Maywood, Illinois, USA.
+DA  - Sep
+IS  - 9
+JF  - Laryngoscope
+KW  - AdolescentAudiometry, Pure-ToneChildChild, Preschool*Cholesteatoma, Middle Ear/su [Surgery]FemaleHumansMale*Mastoid/su [Surgery]*Otologic Surgical Procedures/mt [Methods]RecurrenceReoperationRetrospective StudiesTreatment Outcome
+LA  - English
+N1  - Shirazi MAMuzaffar KLeonetti JPMarzo S
+SP  - 1603-7
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med5&AN=16954988http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:16954988&id=doi:10.1097%2F01.mlg.0000233248.03276.9b&issn=0023-852X&isbn=&volume=116&issue=9&spage=1603&pages=1603-7&date=2006&title=Laryngoscope&atitle=Surgical+treatment+of+pediatric+cholesteatomas.&aulast=Shirazi&pid=%3Cauthor%3EShirazi+MA%3C%2Fauthor%3E&%3CAN%3E16954988%3C%2FAN%3E
+VL  - 116
+Y1  - 2006
+ER  - 
+TY  - JOUR
+A1  - Schraff, Scott A.
+A1  - Strasnick, Barry
+T1  - Pediatric cholesteatoma: a retrospective review
+AB  - OBJECTIVES: The optimal treatment for pediatric cholesteatoma is controversial. Management decisions including intact canal wall versus open cavity techniques, second look procedures and staging ossicular reconstruction continue to be debated. In an attempt to clarify this issue we conducted an 11-year retrospective analysis of our experience with cholesteatoma presenting in our pediatric population.STUDY DESIGN: Retrospective review of children undergoing surgical intervention for cholesteatoma at a tertiary care pediatric hospital between 1 July 1992 and 1 July 2003 by the senior author.METHODS: Comparison of recurrence rates in intact canal wall (ICW) versus canal wall down (CWD) procedures; with analysis of second-look procedures, ossicular chain reconstruction (OCR) and hearing results in the management of pediatric cholesteatoma.RESULTS: Two hundred and sixty-two children with 278 cases of cholesteatoma underwent surgical resection. Of these children, 221 were managed via an ICW approach while the remaining 57 underwent a CWD procedure. The overall recurrence rate in this series was 16%, with 17% in the ICW group and 12% in the CWD group. OCR was performed in 97% of the ICW cases at time of second-look procedure, with 75% undergoing reconstruction with partial ossicular reconstruction prosthesis. The average air-bone gap improvement in these patients was 10.8 dB, with an average hearing improvement of total ossicular reconstruction of 5.8 dB. The average hearing improvement in the CWD group, all managed with cartilage interposition grafts, was 3.7 dB.CONCLUSIONS: Management of pediatric cholesteatoma requires a highly individualized approach that takes into account anatomic, clinical and social factors to determine the most successful surgical treatment paradigm. [References: 32]
+ID  - 350
+AN  - 16343648
+J2  - Int J Pediatr Otorhinolaryngol
+AD  - Schraff, Scott A. Department of Otolaryngology-Head and Neck Surgery, Eastern Virginia Medical School, Children's Hospital of the King's Daughters, Norfolk, VA 23507-1914, USA.
+DA  - Mar
+IS  - 3
+JF  - International Journal of Pediatric Otorhinolaryngology
+KW  - AdolescentChildChild, PreschoolCholesteatoma, Middle Ear/ep [Epidemiology]*Cholesteatoma, Middle Ear/su [Surgery]HumansInfantInfant, NewbornOtologic Surgical Procedures/mt [Methods]RecurrenceRetrospective Studies
+LA  - English
+N1  - ReviewSchraff SAStrasnick B
+SP  - 385-93
+M3  - Journal ArticleReview
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med5&AN=16343648http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:16343648&id=doi:10.1016%2Fj.ijporl.2005.10.006&issn=0165-5876&isbn=&volume=70&issue=3&spage=385&pages=385-93&date=2006&title=International+Journal+of+Pediatric+Otorhinolaryngology&atitle=Pediatric+cholesteatoma%3A+a+retrospective+review.&aulast=Schraff&pid=%3Cauthor%3ESchraff+SA%3C%2Fauthor%3E&%3CAN%3E16343648%3C%2FAN%3E
+VL  - 70
+Y1  - 2006
+ER  - 
+TY  - JOUR
+A1  - Murphy, T. P.
+A1  - Wallis, D. L.
+T1  - Hearing results in pediatric patients after canal-wall-up and canal-wall-down mastoid surgery
+AB  - Hearing results were studied in pediatric patients after canal-wall-up and canal-wall-down mastoid surgery in a private practice setting. A retrospective chart review was performed on 69 patients who underwent surgery from 1991-1995. Twenty-six patients underwent canal-wall-up mastoidectomies, and 43 patients underwent canal-wall-down mastoidectomies. Various types of ossicular reconstruction were performed in patients in both groups. Hearing was evaluated for preoperative and postoperative pure-tone averages, speech-reception thresholds, and air-bone gaps for the various types of ossicular reconstruction. Patients with canal-wall-up mastoidectomies and an intact ossicular chain had an average postoperative air-bone gap of 15 dB, whereas reconstruction of the ossicular chain (regardless of technique) resulted in an average postoperative air-bone gap of 19 dB. Patients with canal-wall-down mastoidectomies and an intact ossicular chain had an average air-bone gap of 15 dB, while all techniques of ossicular reconstruction had an average air-bone gap of 29 dB. Canal-wall-up and canal-wall-down mastoid surgeries in pediatric patients have similar hearing results. Variables other than hearing should be used to make treatment decisions regarding the canal wall in pediatric candidates for mastoid surgery.
+ID  - 394
+AN  - 9807066
+J2  - Otolaryngol Head Neck Surg
+DA  - Nov
+IS  - 5
+JF  - Otolaryngology - Head & Neck Surgery
+KW  - AdolescentChildChild, PreschoolCholesteatoma, Middle EarFemale*HearingHearing TestsHumansMale*Mastoid/su [Surgery]*Otorhinolaryngologic Surgical Procedures/mt [Methods]Retrospective Studies
+LA  - English
+N1  - Murphy TPWallis DL
+SP  - 439-43
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med4&AN=9807066http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:9807066&id=doi:10.1016%2FS0194-5998%2898%2970099-3&issn=0194-5998&isbn=&volume=119&issue=5&spage=439&pages=439-43&date=1998&title=Otolaryngology+-+Head+%26+Neck+Surgery&atitle=Hearing+results+in+pediatric+patients+after+canal-wall-up+and+canal-wall-down+mastoid+surgery.&aulast=Murphy&pid=%3Cauthor%3EMurphy+TP%3C%2Fauthor%3E&%3CAN%3E9807066%3C%2FAN%3E
+VL  - 119
+Y1  - 1998
+ER  - 
+TY  - JOUR
+A1  - Ben Gamra, O.
+A1  - Abid, W.
+A1  - Nacef, I.
+A1  - Romdhane, N.
+A1  - Hariga, I.
+A1  - Mbarek, C.
+T1  - Acquired cholesteatoma in children: Clinical features and surgical results
+AB  - Acquired cholesteatoma in children is an aggressive disease due to its rapid growth and high recurrence rate. Objective: To assess clinical features of cholesteatoma in children and evaluate our experience in the surgical management of this disease. Methods: Fourty children aged 5-16 years operated on for acquired middle ear cholesteatoma (2002-2011), were included in our study. Surgery was bilateral for 3 patients, which makes a total number of 43 operated ears. Functional and anatomical results were evaluated after a minimum follow-up of 3 years. Results: Mean age at the first operation was 11.7 years. Canal wall-up tympanoplasty (CWUT) was performed as first-line procedure in 74% of cases. Canal wall-down tympanoplasty (CWDT) was performed in 26% of cases when cholesteatoma was hardly controllable with a CWUT. Cartilage graft was used in all cases for eardrum reinforcement. After a mean interval of 12.2 months, second look procedure aimed to verify a residual cholesteatoma in 8 cases and perform an ossiculoplasty in one case. Total cholesteatoma recurrence rate was 18% with CWUT and 9% with CWDT (p= 0.4). Predictive factors for recurrence were: children < 10 years (p= 0.02) and ossicular chain resorption (p= 0.04). Post-operative ABG ≤ 25 dB was seen in 53% of CWUT against 18% of CWDT (p= 0.04). Conclusion: CWUT is the optimal management technique offering better hearing results, however, prevention of recurrences are considered to be better with CWDT. © 2015.
+ID  - 694
+J2  - Egypt. J. Ear Nose Throat Allied
+AD  - Department of Otorhinolaryngology, Head and Neck Surgery, Habib Thameur Hospital, Tunisia
+IS  - 1
+JF  - Egyptian Journal of Ear, Nose, Throat and Allied Sciences
+KW  - ChildrenCholesteatomaCWUTMiddle ear surgery
+LA  - English
+N1  - Cited By :1Export Date: 20 December 2019Correspondence Address: Nacef, I.; Department of Otorhinolaryngology, Head and Neck Surgery, Habib Thameur HospitalTunisia; email: inesnacef@gmail.com
+SP  - 1-6
+PB  - Egyptian Society of Ear Nose Throat and Allied Sciences
+M3  - Article
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85006219643&doi=10.1016%2fj.ejenta.2015.09.002&partnerID=40&md5=2d350c04fd513da584897308e33ac376
+VL  - 17
+Y1  - 2016
+ER  - 
+TY  - JOUR
+A1  - Charachon, R.
+A1  - Gratacap, B.
+T1  - The surgical treatment of cholesteatoma in children
+AB  - Between 1966 and 1981, 141 cholesteatomas were operated upon in children who were 3-15 years old. Radical mastoidectomy was performed in 5 cases. Open cavity tympanoplasty was done in 3 cases. Intact canal wall technique was performed in 99 cases, with a planned second stage in 83 cases (all cholesteatoma cases since 1973). ICWT avoids a large cavity in a well pneumatized mastoid and the second stage controls residual cholesteatomas which were more frequent in children (50%) than in adults (22%). Because of multiple or large residual cholesteatomas, a third stage was performed in 3 cases. Because of a large mesotympanum and/or attic residual cholesteatoma, a transformation of ICWT to an obliteration technique was performed in 4 cases. Retraction pockets were found after the first stage in 12 cases and a transformation of ICWT to an obliteration technique was done in 8 cases at the second stage. Late retraction pockets were found after 5 years in 20% after 2 stages and in 25% after one stage. If a retraction pocket is observed at the second stage, transformation of ICWT to an obliteration technique must be performed. Obliteration technique was performed in 34 cases. A second stage was planned in 26 cases only if the mesotympanum was to be dissected raw. Hearing results were better with an intact stapes (56% of air-bone gap less than or equal to 20 dB).
+ID  - 763
+AN  - 4053417
+J2  - Clin Otolaryngol Allied Sci
+DA  - Aug
+IS  - 4
+JF  - Clinical Otolaryngology & Allied Sciences
+KW  - AdolescentChildChild, PreschoolCholesteatoma/pa [Pathology]*Cholesteatoma/su [Surgery]Ear Diseases/pa [Pathology]*Ear Diseases/su [Surgery]Hearing Loss, Sensorineural/et [Etiology]HumansMastoid/su [Surgery]Tympanoplasty
+LA  - English
+N1  - Charachon RGratacap B
+SP  - 177-84
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med2&AN=4053417http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:4053417&id=doi:10.1111%2Fj.1365-2273.1985.tb00237.x&issn=0307-7772&isbn=&volume=10&issue=4&spage=177&pages=177-84&date=1985&title=Clinical+Otolaryngology+%26+Allied+Sciences&atitle=The+surgical+treatment+of+cholesteatoma+in+children.&aulast=Charachon&pid=%3Cauthor%3ECharachon+R%3C%2Fauthor%3E&%3CAN%3E4053417%3C%2FAN%3E
+VL  - 10
+Y1  - 1985
+ER  - 
+TY  - JOUR
+A1  - Marco-Algarra, J.
+A1  - Gimenez, F.
+A1  - Mallea, I.
+A1  - Armengot, M.
+A1  - e la Fuente, L.
+T1  - Cholesteatoma in children: results in open versus closed techniques
+AB  - Cholesteatoma in children presents characteristics that differentiate it from the adult condition. Surgery has been performed in 55 ears. The main reason for referral was otorrhoea (83 per cent), either alone (29 per cent) or with hearing loss (54 per cent). Apart from three cases with an intact eardrum, a perforation was always present mostly posterior-superior (50 per cent). Open techniques were performed in 27.3 per cent of the ears and the closed technique in 72.7 per cent. Only in 18 per cent of cases was the ossicular chain normal and mobile. The attic was occupied by cholesteatoma in 79 per cent. Recurrence took place in 37 per cent and 13 per cent of the closed and open techniques respectively. Open techniques tend to be employed in the presence of extensive disease, whereas the closed technique is reserved for those with a more localized problem.
+ID  - 833
+AN  - 1753190
+J2  - J Laryngol Otol
+AD  - Marco-Algarra, J. Departamento de Cirugia, Facultad de Medicina, Valencia, Spain.
+DA  - Oct
+IS  - 10
+JF  - Journal of Laryngology & Otology
+KW  - AdolescentChildChild, Preschool*Cholesteatoma/su [Surgery]*Ear Diseases/su [Surgery]*Ear, Middle/su [Surgery]FemaleFollow-Up StudiesHumansMaleRecurrenceTympanic Membrane/su [Surgery]
+LA  - English
+N1  - Marco-Algarra JGimenez FMallea IArmengot Mde la Fuente L
+SP  - 820-4
+M3  - Comparative StudyJournal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med3&AN=1753190http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:1753190&id=doi:10.1017%2Fs0022215100117438&issn=0022-2151&isbn=&volume=105&issue=10&spage=820&pages=820-4&date=1991&title=Journal+of+Laryngology+%26+Otology&atitle=Cholesteatoma+in+children%3A+results+in+open+versus+closed+techniques.&aulast=Marco-Algarra&pid=%3Cauthor%3EMarco-Algarra+J%3C%2Fauthor%3E&%3CAN%3E1753190%3C%2FAN%3E
+VL  - 105
+Y1  - 1991
+ER  - 
+TY  - JOUR
+A1  - Moller, Patrick Ronde
+A1  - Pedersen, Christina Nygaard
+A1  - Grosfjeld, Line R.
+A1  - Faber, Christian E.
+A1  - Djurhuus, Bjarki D.
+T1  - Recurrence of Cholesteatoma - A Retrospective Study Including 1,006 Patients for More than 33 Years
+AB  - Introduction Cholesteatomas are benign tumors consisting of skin, and growing inside a retraction pocket in the tympanic membrane. Cholesteatomas can occupy the entirety of the middle ear, and are known for their osteolytic capabilities. Surgery is the only curative treatment for cholesteatomas. Objective To describe the risk of recurrence after first-time surgically-treated middle-ear cholesteatoma (STMEC1) on the island of Funen from 1983 to 2015. Methods Cases of STMEC1 were identified in the Danish National Hospital Register. The medical records were reviewed. Time-to-event analyses were applied. The ears were followed from STMEC1 to a secondary cholesteatoma, emigration, death, or end of follow-up. Results Records from 1,006 patients with STMEC1 were reviewed. A total of 54 patients were submitted to surgery on both ears. The total sample consisted of 1,060 ears with STMEC1; 300 were children's (< 16 years) ears, and 760 were adult's ears. The total observation time was of 12,049 years. The overall estimated proportion with recurrence 5 years after surgery was of 37% in children and of 15% in adults. The older the child was at the first surgery, the risk decreased by 7% per year. In children, canal wall up (CWU) mastoidectomy without obliteration was associated with a hazard ratio for recurrence of 1.9 (95% confidence interval [95%CI]: 1.2-3.0) compared with CWU with obliteration. Conclusion Compared with adults, children were had 2.6 times more risk of recurrence. Procedures performed without mastoidectomy had the lowest risk of recurrence. In children, obliteration was associated with a significantly lower risk of recurrence. However, patients were not randomized regarding the surgical approach; thus, the association between approach and risk of recurrence was likely influenced by confounding factors.
+ID  - 839
+AN  - 31915464
+J2  - Int
+AD  - Moller, Patrick Ronde. Department of Ear, Nose and Throat Head and Neck Surgery, Zealand University Hospital, Koge, Denmark.Pedersen, Christina Nygaard. Department of Ear, Nose and Throat Head and Neck Surgery, Odense University Hospital, Odense, Denmark.Grosfjeld, Line R. Department of Ear, Nose and Throat Head and Neck Surgery, Odense University Hospital, Odense, Denmark.Faber, Christian E. Department of Ear, Nose and Throat Head and Neck Surgery, Odense University Hospital, Odense, Denmark.Djurhuus, Bjarki D. Department of Ear, Nose and Throat Head and Neck Surgery, Zealand University Hospital, Koge, Denmark.Djurhuus, Bjarki D. Epidemiology, Biostatistics and Biodemography, Institute of Public Health, University of Southern Denmark, Odense, Denmark.
+DA  - Jan
+IS  - 1
+JF  - International @rchives of Otorhinolaryngology
+LA  - English
+N1  - Moller PRPedersen CNGrosfjeld LRFaber CEDjurhuus BD
+SP  - e18-e23
+M3  - Journal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=prem&AN=31915464http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:31915464&id=doi:10.1055%2Fs-0039-1697989&issn=1809-9777&isbn=&volume=24&issue=1&spage=e18&pages=e18-e23&date=2020&title=International+%40rchives+of+Otorhinolaryngology&atitle=Recurrence+of+Cholesteatoma+-+A+Retrospective+Study+Including+1%2C006+Patients+for+More+than+33+Years.&aulast=Moller&pid=%3Cauthor%3EMoller+PR%3C%2Fauthor%3E&%3CAN%3E31915464%3C%2FAN%3E
+VL  - 24
+Y1  - 2020
+ER  - 
+TY  - JOUR
+A1  - Schmid, H.
+A1  - Dort, J. C.
+A1  - Fisch, U.
+T1  - Long-term results of treatment for children's cholesteatoma
+AB  - Fifty-seven of 98 children with cholesteatoma treated between 1976 and 1985 were available for long-term follow-up. The clinical records of the 57 children were analyzed retrospectively. The purpose of this study was to compare the incidence of recurrent and/or residual cholesteatoma, postoperative otorrhea, and hearing results between two groups of patients. One group (n = 40) of children was treated with a radical mastoidoepitympanectomy (RMET) and the other group (n = 17) was treated with intact canal wall tympanoplasty/mastoidectomy (ICWT). Residual cholesteatomas were twice as frequent (17% versus 7.5%) in the ICWT group while recurrent disease was the same. There was no difference in postoperative otorrhea between the two patient groups. Hearing results were equally good in the Type III and in the ICWT group with staged TORP. It is concluded that a Type III tympanoplasty is an excellent one-stage method of hearing reconstruction in patients with good eustachian tube function and an intact stapes and that a correctly performed RMET offers a safe trouble free alternative to ICWT. In selected patients with limited disease and a well pneumatized mastoid, ICWT is still used.
+ID  - 883
+AN  - 2053610
+J2  - Am J Otol
+AD  - Schmid, H. Department of Otolaryngology, University Hospital Zurich, Switzerland.
+DA  - Mar
+IS  - 2
+JF  - American Journal of Otology
+KW  - Child*Cholesteatoma/su [Surgery]*Ear Diseases/su [Surgery]Ear, Middle/su [Surgery]Follow-Up StudiesHumansRecurrenceReoperationRetrospective StudiesTympanoplasty/ae [Adverse Effects]
+LA  - English
+N1  - Schmid HDort JCFisch U
+SP  - 83-7
+M3  - Comparative StudyJournal Article
+UR  - https://ovidsp.ovid.com/ovidweb.cgi?T=JS&CSC=Y&NEWS=N&PAGE=fulltext&D=med3&AN=2053610http://sfxhosted.exlibrisgroup.com/mayo?sid=OVID:medline&id=pmid:2053610&id=doi:&issn=0192-9763&isbn=&volume=12&issue=2&spage=83&pages=83-7&date=1991&title=American+Journal+of+Otology&atitle=Long-term+results+of+treatment+for+children%27s+cholesteatoma.&aulast=Schmid&pid=%3Cauthor%3ESchmid+H%3C%2Fauthor%3E&%3CAN%3E2053610%3C%2FAN%3E
+VL  - 12
+Y1  - 1991
+ER  - 
