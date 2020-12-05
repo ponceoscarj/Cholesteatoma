@@ -410,7 +410,7 @@ plotrr_single_studies(words = tresidual$b,
 
 
 ### Figure 5 
-<details><summary><b>Show figure -</b> Risk of <b>Recidivism</b> after <b>Canal Wall Up</b> vs. <b>Canal Wall Down</b></summary>
+<details><summary><b>Show figure -</b> Risk of <b>Recidivism</b> after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 ```{r recidivism, fig.height=6, fig.width=13, echo=FALSE, message=FALSE, warning=FALSE}
 #meta analysis recidivism longest followup

@@ -68,7 +68,7 @@ Wall Up</b> versus <b>Canal Wall Down</b></summary>
 <details>
 
 <summary><b>Show figure -</b> Risk of <b>Recidivism</b> after <b>Canal
-Wall Up</b> vs. <b>Canal Wall Down</b></summary>
+Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 ![](Cholesteatoma_files/figure-gfm/recidivism-1.svg)<!-- -->
 
