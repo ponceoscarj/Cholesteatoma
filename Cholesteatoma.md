@@ -1,84 +1,74 @@
 Cholesteatoma
 ================
-Oscar J. Ponce
+Oscar J. Ponce & Paola Diaz-Pazmino
 06/11/2020
 
 ## Open Data
 
 > Click any of the following links to view the documents
 
-|        Stage        |                                                      File                                                       |
-| :-----------------: | :-------------------------------------------------------------------------------------------------------------: |
-|      Protocol       |               [Prospero](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=184029)                |
-|   Search strategy   |                                                                                                                 |
-| Abstract screening  |                                                                                                                 |
-| Full-text screening |                                                                                                                 |
-|  Included studies   |                                                                                                                 |
-|  Raw Outcome data   | [Available as `.CSV`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/6%20Extracted%20Data/outcomes.csv) |
-|   Analysis codes    |       [Script as `R Markdown`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/Cholesteatoma.Rmd)        |
+|        Stage        |                                                                                                                     File                                                                                                                     |
+| :-----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      Protocol       |                                                                              [Prospero](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=184029)                                                                              |
+|   Search strategy   |                       [Ovid](https://github.com/ponceoscarj/Cholesteatoma/blob/main/2%20Search%20Strategy/ovid.csv), [Scopus](https://github.com/ponceoscarj/Cholesteatoma/blob/main/2%20Search%20Strategy/scopus.csv)                       |
+| Abstract screening  |        [Total Articles](https://github.com/ponceoscarj/Cholesteatoma/blob/main/3%20Articles%20for%20Abstract%20Screening/AbstractScreening_TotalStudies.txt), [Excluded Articles](), **`Included Articles to Full-text screening`↓**         |
+| Full-text screening | [Total Articles](https://github.com/ponceoscarj/Cholesteatoma/blob/main/4%20Articles%20for%20Full%20Text%20Screening/FulltextScreening_TotalStudies.txt), [Excluded Articles](), **`Included Articles for this study and data extraction`↓** |
+|  Included studies   |                                             [Total Articles](https://github.com/ponceoscarj/Cholesteatoma/blob/main/5%20Included%20Articles%20for%20Data%20Extraction/IncludedStudies_SRMA.txt)                                              |
+|  Raw Outcome data   |                                                               [Available as `.CSV`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/6%20Extracted%20Data/outcomes.csv)                                                                |
+|   Analysis codes    |                                                                      [Script as `R Markdown`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/Cholesteatoma.Rmd)                                                                      |
 
 ## Forest plots
 
-### Figure 2 (Air-bone gap)
+### Figure 2
 
 <details>
 
-<summary>Show</summary>
-
-*Air bone gap difference in decibels (db) in children with
-choleasteatoma undergoing Canal wall up vs. Canal wall down*
+<summary><b>Show figure -</b> Differences in Air Bone Gap (db) after
+Canal Wall Up versus Canal Wall Down</summary>
 
 ![](Cholesteatoma_files/figure-gfm/abg-1.svg)<!-- -->
 
 </details>
 
-### Figure 3 (Air conduction)
+### Figure 3
 
 <details>
 
-<summary>Show</summary>
-
-*Air conduction difference in children with choleasteatoma undergoing
-Canal wall up vs. Canal wall down*
+<summary><b>Show figure -</b> Difference in Air Conduction (Hz) after
+Canal Wall Up versus Canal Wall Down</summary>
 
 ![](Cholesteatoma_files/figure-gfm/ac-1.svg)<!-- -->
 
 </details>
 
-### Figure 4 (Recurrence)
+### Figure 4
 
 <details>
 
-<summary>Show</summary>
-
-*Difference in risk of recurrence in children with choleasteatoma
-undergoing Canal wall up vs. Canal wall down*
+<summary><b>Show figure -</b> Risk of recurrence after Canal Wall Up
+vs. Canal Wall Down</summary>
 
 ![](Cholesteatoma_files/figure-gfm/recurrence-1.svg)<!-- -->
 
 </details>
 
-### Figure 4 (Residual)
+### Figure 4
 
 <details>
 
-<summary>Show</summary>
-
-*Difference in risk of residual tissue in children with choleasteatoma
-undergoing Canal wall up vs. Canal wall down*
+<summary><b>Show figure -</b> Risk of Residual Tissue after Canal Wall
+Up versus Canal Wall Down</summary>
 
 ![](Cholesteatoma_files/figure-gfm/residual-1.svg)<!-- -->
 
 </details>
 
-### Figure 5 (Recidivism)
+### Figure 5
 
 <details>
 
-<summary>Show</summary>
-
-*Difference in risk of recidivism in children with choleasteatoma
-undergoing Canal wall up vs. Canal wall down*
+<summary><b>Show figure -</b> Risk of Recidivism after Canal Wall Up
+vs. Canal Wall Down</summary>
 
 ![](Cholesteatoma_files/figure-gfm/recidivism-1.svg)<!-- -->
 
