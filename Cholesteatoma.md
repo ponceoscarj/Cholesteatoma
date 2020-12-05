@@ -23,8 +23,8 @@ Oscar J. Ponce & Paola Diaz-Pazmino
 
 <details>
 
-<summary><b>Show figure -</b> Differences in Air Bone Gap (db) after
-Canal Wall Up versus Canal Wall Down</summary>
+<summary><b>Show figure -</b> Differences in <b>Air Bone Gap (db)</b>
+after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 ![](Cholesteatoma_files/figure-gfm/abg-1.svg)<!-- -->
 
@@ -34,8 +34,8 @@ Canal Wall Up versus Canal Wall Down</summary>
 
 <details>
 
-<summary><b>Show figure -</b> Difference in Air Conduction (Hz) after
-Canal Wall Up versus Canal Wall Down</summary>
+<summary><b>Show figure -</b> Difference in <b>Air Conduction (Hz)</b>
+after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 ![](Cholesteatoma_files/figure-gfm/ac-1.svg)<!-- -->
 
@@ -45,8 +45,8 @@ Canal Wall Up versus Canal Wall Down</summary>
 
 <details>
 
-<summary><b>Show figure -</b> Risk of recurrence after Canal Wall Up
-vs. Canal Wall Down</summary>
+<summary><b>Show figure -</b> Risk of <b>Recurrence</b> after <b>Canal
+Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 ![](Cholesteatoma_files/figure-gfm/recurrence-1.svg)<!-- -->
 
@@ -56,8 +56,8 @@ vs. Canal Wall Down</summary>
 
 <details>
 
-<summary><b>Show figure -</b> Risk of Residual Tissue after Canal Wall
-Up versus Canal Wall Down</summary>
+<summary><b>Show figure -</b> Risk of <b>Residual Tissue</b> after
+<b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 ![](Cholesteatoma_files/figure-gfm/residual-1.svg)<!-- -->
 
@@ -67,8 +67,8 @@ Up versus Canal Wall Down</summary>
 
 <details>
 
-<summary><b>Show figure -</b> Risk of Recidivism after Canal Wall Up
-vs. Canal Wall Down</summary>
+<summary><b>Show figure -</b> Risk of <b>Recidivism</b> after <b>Canal
+Wall Up</b> vs. <b>Canal Wall Down</b></summary>
 
 ![](Cholesteatoma_files/figure-gfm/recidivism-1.svg)<!-- -->
 
