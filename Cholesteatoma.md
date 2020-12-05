@@ -7,15 +7,15 @@ Oscar J. Ponce & Paola Diaz-Pazmino
 
 > Click any of the following links to view the documents
 
-|        Stage        |                                                                                                                     File                                                                                                                     |
-| :-----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|      Protocol       |                                                                              [Prospero](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=184029)                                                                              |
-|   Search strategy   |                       [Ovid](https://github.com/ponceoscarj/Cholesteatoma/blob/main/2%20Search%20Strategy/ovid.csv), [Scopus](https://github.com/ponceoscarj/Cholesteatoma/blob/main/2%20Search%20Strategy/scopus.csv)                       |
-| Abstract screening  |        [Total Articles](https://github.com/ponceoscarj/Cholesteatoma/blob/main/3%20Articles%20for%20Abstract%20Screening/AbstractScreening_TotalStudies.txt), [Excluded Articles](), **`Included Articles to Full-text screening`↓**         |
-| Full-text screening | [Total Articles](https://github.com/ponceoscarj/Cholesteatoma/blob/main/4%20Articles%20for%20Full%20Text%20Screening/FulltextScreening_TotalStudies.txt), [Excluded Articles](), **`Included Articles for this study and data extraction`↓** |
-|  Included studies   |                                             [Total Articles](https://github.com/ponceoscarj/Cholesteatoma/blob/main/5%20Included%20Articles%20for%20Data%20Extraction/IncludedStudies_SRMA.txt)                                              |
-|  Raw Outcome data   |                                                               [Available as `.CSV`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/6%20Extracted%20Data/outcomes.csv)                                                                |
-|   Analysis codes    |                                                                      [Script as `R Markdown`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/Cholesteatoma.Rmd)                                                                      |
+|        Stage        |                                                                                                                                                                                File                                                                                                                                                                                 |
+| :-----------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      Protocol       |                                                                                                                                         [PROSPERO](https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=184029)                                                                                                                                          |
+|   Search strategy   |                                                                                 [Ovid](https://github.com/ponceoscarj/Cholesteatoma/blob/main/2%20Search%20Strategy/ovid.csv) and [Scopus](https://github.com/ponceoscarj/Cholesteatoma/blob/main/2%20Search%20Strategy/scopus.csv)                                                                                 |
+| Abstract screening  |   [Total Articles = 1024](https://github.com/ponceoscarj/Cholesteatoma/blob/main/3%20Articles%20for%20Abstract%20Screening/AbstractScreening_TotalStudies.txt), [Excluded Articles = 780](https://github.com/ponceoscarj/Cholesteatoma/blob/main/3%20Articles%20for%20Abstract%20Screening/AbstractScreening_ExcludedStudies.txt), **`Included Articles = 247`↓**   |
+| Full-text screening | [Total Articles = 247](https://github.com/ponceoscarj/Cholesteatoma/blob/main/4%20Articles%20for%20Full%20Text%20Screening/FulltextScreening_TotalStudies.txt), [Excluded Articles = 230](https://github.com/ponceoscarj/Cholesteatoma/blob/main/4%20Articles%20for%20Full%20Text%20Screening/FulltextScreening_ExcludedStudies.txt), **`Included Articles = 17`↓** |
+|   Data Extraction   |                                                                                                      [Total Articles = 17](https://github.com/ponceoscarj/Cholesteatoma/blob/main/5%20Included%20Articles%20for%20Data%20Extraction/IncludedStudies_SRMA.txt)                                                                                                       |
+|  Raw Outcome data   |                                                                                                                           [Available as `.CSV`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/6%20Extracted%20Data/outcomes.csv)                                                                                                                           |
+|   Analysis codes    |                                                                                                                                 [Script as `R Markdown`](https://github.com/ponceoscarj/Cholesteatoma/blob/main/Cholesteatoma.Rmd)                                                                                                                                  |
 
 ## Forest plots
 
@@ -52,7 +52,7 @@ Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 </details>
 
-### Figure 4
+### Figure 5
 
 <details>
 
@@ -63,7 +63,7 @@ Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 </details>
 
-### Figure 5
+### Figure 6
 
 <details>
 
