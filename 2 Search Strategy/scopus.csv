@@ -1,0 +1,15 @@
+﻿Search Line,Search Query
+1,TITLE-ABS-KEY(cholesteatoma*)
+2,"TITLE-ABS-KEY((mastoid* W/3 obliterat*) OR (radical W/4 Mastoidectom*) OR ""canal wall down"" OR ""canal wall up"" OR ""Closed technique*"" OR ""Intact canal wall"" OR ""Open technique*"")"
+3,LANGUAGE(english)
+4,1 and 2 and 3
+5,"TITLE-ABS-KEY(adult or adults or ""middle age"" or ""middle aged"" or elderly or geriatric*) AND NOT TITLE-ABS-KEY(newborn* or neonat* or infant* or toddler* or child* or adolescent* or paediatric* or pediatric* or girl or girls or boy or boys or teen or teens or teenager* or preschooler* or ""pre-schooler*"" or preteen or preteens or ""pre-teen"" or ""pre-teens"" or youth or youths)"
+6,4 and not 5
+7,"TITLE-ABS-KEY((alpaca OR alpacas OR amphibian OR amphibians OR animal OR animals OR antelope OR armadillo OR armadillos OR avian OR baboon OR baboons OR beagle OR beagles OR bee OR bees OR bird OR birds OR bison OR bovine OR buffalo OR buffaloes OR buffalos OR ""c elegans"" OR ""Caenorhabditis elegans"" OR camel OR camels OR canine OR canines OR carp OR cats OR cattle OR chick OR chicken OR chickens OR chicks OR chimp OR chimpanze OR chimpanzees OR chimps OR cow OR cows OR ""D melanogaster"" OR ""dairy calf"" OR ""dairy calves"" OR deer OR dog OR dogs OR donkey OR donkeys OR drosophila OR ""Drosophila melanogaster"" OR duck OR duckling OR ducklings OR ducks OR equid OR equids OR equine OR equines OR feline OR felines OR ferret OR ferrets OR finch OR finches OR fish OR flatworm OR flatworms OR fox OR foxes OR frog OR frogs OR ""fruit flies"" OR ""fruit fly"" OR ""G mellonella"" OR ""Galleria mellonella"" OR geese OR gerbil OR gerbils OR goat OR goats OR goose OR gorilla OR gorillas OR hamster OR hamsters OR hare OR hares OR heifer OR heifers OR horse OR horses OR insect OR insects OR jellyfish OR kangaroo OR kangaroos OR kitten OR kittens OR lagomorph OR lagomorphs OR lamb OR lambs OR llama OR llamas OR macaque OR macaques OR macaw OR macaws OR marmoset OR marmosets OR mice OR minipig OR minipigs OR mink OR minks OR monkey OR monkeys OR mouse OR mule OR mules OR nematode OR nematodes OR octopus OR octopuses OR orangutan OR ""orang-utan"" OR orangutans OR ""orang-utans"" OR oxen OR parrot OR parrots OR pig OR pigeon OR pigeons OR piglet OR piglets OR pigs OR porcine OR primate OR primates OR quail OR rabbit OR rabbits OR rat OR rats OR reptile OR reptiles OR rodent OR rodents OR ruminant OR ruminants OR salmon OR sheep OR shrimp OR slug OR slugs OR swine OR tamarin OR tamarins OR toad OR toads OR trout OR urchin OR urchins OR vole OR voles OR waxworm OR waxworms OR worm OR worms OR xenopus OR ""zebra fish"" OR zebrafish) AND NOT (human OR humans or patient or patients))"
+8,6 and not 7
+9,TITLE-ABS-KEY(case W/3 report)
+10,8 and not 9
+11,DOCTYPE(ed) OR DOCTYPE(bk) OR DOCTYPE(er) OR DOCTYPE(no) OR DOCTYPE(sh)
+12,10 and not 11
+13,INDEX(embase) OR INDEX(medline) OR PMID(0* OR 1* OR 2* OR 3* OR 4* OR 5* OR 6* OR 7* OR 8* OR 9*)
+14,12 and not 13
