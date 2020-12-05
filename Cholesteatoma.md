@@ -1,6 +1,6 @@
 Cholesteatoma
 ================
-Oscar J. Ponce & Paola Diaz-Pazmino
+Oscar J. Ponce & Paola Solis-Pazmino
 06/11/2020
 
 ## Open Data

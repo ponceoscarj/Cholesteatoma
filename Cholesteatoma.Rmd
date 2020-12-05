@@ -1,6 +1,6 @@
 ---
 title: "Cholesteatoma"
-author: "Oscar J. Ponce & Paola Diaz-Pazmino"
+author: "Oscar J. Ponce & Paola Solis-Pazmino"
 date: "06/11/2020"
 output: github_document
 ---
