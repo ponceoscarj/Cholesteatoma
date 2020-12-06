@@ -33,7 +33,6 @@ after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 ### Figure 3
 
 <details>
-
 <summary><b>Show figure -</b> Difference in <b>Air Conduction (Hz)</b>
 after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
