@@ -1,0 +1,423 @@
+
+# Packages ----------------------------------------------------------------
+library(webshot)
+library(metafor)
+library(tidyverse)
+library(rmarkdown)
+library(magrittr)
+library(grid)
+library(gt)
+library(forestplot)
+library(glue)
+library(Gmisc)
+library(Matrix)
+
+
+# Cleaning data -----------------------------------------------------------
+pao <- read.csv("6 Extracted Data/outcomesV2.csv")
+
+pao$outcome[pao$outcome == 'AC THRESHOLD'] <- 'AC'
+pao$outcome[pao$outcome == 'AIR BONE GAP'] <- 'ABG'
+
+pao$outcome[pao$outcome == 'Recurrence'] <- 'recurrence'
+pao$outcome[pao$outcome == 'Residual'] <- 'residual'
+pao$outcome[pao$outcome == 'RESIDUAL'] <- 'residual'
+pao$outcome[pao$outcome == 'Otorrhoea'] <- 'otorrhoea'
+pao$outcome[pao$outcome == 'Retraction pocket'] <- 'retraction'
+
+pao$outcome[pao$outcome == 'Recidivism'] <- 'recidivism'
+
+names(pao)[8] <- 'followup'
+
+
+
+pao$author <- 
+  ifelse(pao$refid==55, paste("Godinho et al., 2005"),
+         ifelse(pao$refid==66, paste("Ueda et al., 2001"),
+                ifelse(pao$refid==73, paste("Lau et al., 1987"),
+                       ifelse(pao$refid==84, paste("Gocman et al., 2002"),
+                              ifelse(pao$refid==100, paste("Dodson et al., 1998"),
+                                     ifelse(pao$refid==205, paste("McGuire et al., 2016"),
+                                            ifelse(pao$refid==238, paste("Sergi et al., 2014"),
+                                                   ifelse(pao$refid==270, paste("Drahy et al., 2012"),
+                                                          ifelse(pao$refid==340, paste("Chadha et al., 2006"),
+                                                                 ifelse(pao$refid==343, paste("Shirazi et al., 2006"),
+                                                                        ifelse(pao$refid==350, paste("Schraff et al., 2005"),
+                                                                               ifelse(pao$refid==394, paste("Murphy et al., 1998"),
+                                                                                      ifelse(pao$refid==833, paste("Marco-Algarra et al., 1991"),
+                                                                                             ifelse(pao$refid==883, paste("Schmid et al., 1991"),
+                                                                                                    ifelse(pao$refid==694, paste("Gamra, 2016"), 
+                                                                                                           ifelse(pao$refid==763, paste("Charachon, 1985"), 
+                                                                                                                  ifelse(pao$refid==839, paste("Moller, 2020"), NA )))))))))))))))))
+
+pao$followup <- ifelse(pao$followup=="", paste("NR"), pao$followup)
+pao$followup <- ifelse(pao$followup=="0", paste("No follow-up"), pao$followup)
+pao$followup <- ifelse(pao$followup==">12", paste(">1 year"),
+                       ifelse(pao$followup=="12", paste("1 year"),
+                              ifelse(pao$followup=="120", paste("10 years"),
+                                     ifelse(pao$followup=="18", paste("1.5 years"),
+                                            ifelse(pao$followup=="22", paste("1.8 years"),
+                                                   ifelse(pao$followup=="24", paste("2 years"),         
+                                                          ifelse(pao$followup=="3.1 years (mean)", paste("3.1 years"),
+                                                                 ifelse(pao$followup=="3.2 years", paste("3.2 years"),                       
+                                                                        ifelse(pao$followup=="3.7 years (mean)", paste("3.7 years"),       
+                                                                               ifelse(pao$followup=="30", paste("2.5 years"),       
+                                                                                      ifelse(pao$followup=="36", paste("3 years"),
+                                                                                             ifelse(pao$followup=="4", paste("0.3 years"),       
+                                                                                                    ifelse(pao$followup=="42", paste("3.5 years"),       
+                                                                                                           ifelse(pao$followup=="48", paste("4 years"),
+                                                                                                                  ifelse(pao$followup=="54", paste("4.5 years"),       
+                                                                                                                         ifelse(pao$followup=="6", paste("0.5 years"),       
+                                                                                                                                ifelse(pao$followup=="6.1 year", paste("6.1 years"),       
+                                                                                                                                       ifelse(pao$followup=="60", paste("5 years"),       
+                                                                                                                                              ifelse(pao$followup=="72", paste("6 years"),       
+                                                                                                                                                     ifelse(pao$followup=="82", paste("6.8 years"),       
+                                                                                                                                                            ifelse(pao$followup=="84", paste("7 years"),
+                                                                                                                                                                   ifelse(pao$followup=="51 months", paste("4.3 years"),       
+                                                                                                                                                                          ifelse(pao$followup=="18", paste("18 months"),
+                                                                                                                                                                                 ifelse(pao$followup=="24-56 months", paste("2 to 4.6 years"), pao$followup))))))))))))))))))))))))
+
+# Functions ---------------------------------------------------------------
+rr <- function(database){
+  db <- database
+  db <- escalc(measure="RR", ai=e1, ci=e2, n1i=n1, n2i=n2,data=database)
+  db <- db[order(db$yi),]
+  db <- summary(db)
+  
+  db$est <-  exp(db$yi)
+  db$ci.lb <- exp(db$ci.lb)
+  db$ci.ub <- exp(db$ci.ub)
+  
+  
+  db$rate1 <- paste(db$e1,"/",db$n1)
+  db$rate2 <- paste(db$e2,"/",db$n2)
+  db$rr <- paste(formatC(db$est, format='f', digits =2)," ",
+                 "(",formatC(db$ci.lb, format='f', digits =2),
+                 "-",formatC(db$ci.ub, format='f', digits=2),")")  
+  
+  ma <- rma(db$yi, db$vi, measure='RR', data=db, method='REML', test='knha')
+  exp <- predict(ma, transf = transf.exp.int)
+  
+  db$weights <- weights(ma)
+  db$w <- paste(formatC(db$weights, format='f', digits = 0),'%')
+  
+  list(pre = db, ma = ma, exp = exp)
+}
+
+
+
+table_rr <- function(analysis, nstudies, follow=FALSE){
+  
+  authors <- c("Author", analysis$pre$author, 
+               paste("Overall Relative Risk for", analysis$ma$k, "studies"), 
+               paste("(Tau^2 = ", (formatC(analysis$ma$tau2, digits=2, format="f")), ", df = ", 
+                     (analysis$ma$k - analysis$ma$p),
+                     ", p ", (ifelse(analysis$ma$QEp < 0.001, 
+                                     paste("< 0.001"),
+                                     paste("= ", formatC(analysis$ma$QEp, digits=3, format="f")))),
+                     "; ", "I^2", " = ", (formatC(analysis$ma$I2, digits=1, format="f")), "%)"))
+  fu <- c("Follow-up (months)", analysis$pre$followup, NA, NA)
+  int <- c("Canal Wall-Up (n/N)",analysis$pre$rate1, paste(sum(analysis$pre$e1), " / ",
+                                                           sum(analysis$pre$n1)), NA)
+  comp <- c("Canal Wall-Down (n/N)",analysis$pre$rate2, paste(sum(analysis$pre$e2), " / ",
+                                                              sum(analysis$pre$n2)), NA)
+  rr <- c("Relative Risk (95% CI)", analysis$pre$rr, 
+          paste(formatC(analysis$exp$pred, format='f', digits =2), 
+                " (",formatC(analysis$exp$ci.lb, format='f', digits=2),
+                "-", formatC(analysis$exp$ci.ub, format='f', digits=2), ")"), NA)
+  
+  weight <- c("Weight(%)", paste(formatC(weights(analysis$ma), format='f', digits = 1),'%'), "100 %", NA)
+  
+  ifelse(follow==T,
+         b <- cbind(authors, int, comp,fu, rr, weight),
+         b <- cbind(authors, int, comp, rr, weight))
+  
+  ifelse(nstudies>1,
+         b <- rbind(b[1,], NA, NA, b[2:(nrow(b)-1),], b[nrow(b),]),
+         b <- rbind(b[1,], NA, NA, b[2:(nrow(b)-2),], NA))
+  
+  ifelse(nstudies > 1,
+         (c <- structure(list(
+           mean = c(rep(NA, 3), analysis$pre$est, exp(analysis$ma$b),NA),
+           lower = c(rep(NA, 3), analysis$pre$ci.lb, exp(analysis$ma$ci.lb), NA),
+           upper = c(rep(NA, 3), analysis$pre$ci.ub, exp(analysis$ma$ci.ub), NA)),
+           .Names = c("mean", "lower", "upper"),
+           row.names = c(NA, -1L*nrow(b)),
+           class = "data.frame")),
+         (c <- structure(list(
+           mean = c(rep(NA, 3), analysis$pre$est, NA),
+           lower = c(rep(NA, 3), analysis$pre$ci.lb, NA),
+           upper = c(rep(NA, 3), analysis$pre$ci.ub, NA)),
+           .Names = c("mean", "lower", "upper"),
+           row.names = c(NA, -1L*nrow(b)),
+           class = "data.frame")))
+  c <- as_tibble(c)
+  
+  list(b = b, c = c)
+  
+}
+
+
+
+plotrr_single_studies <- function(words, numbers,  
+                                  xtick, sizes, bolding, aligning, fpPosition,
+                                  lines, clip){
+  
+  forestplot(words,
+             graph.pos = fpPosition,
+             zero = 1,
+             numbers,
+             new_page = TRUE,
+             colgap = unit(5, "mm"),
+             hrzl_lines = lines,
+             lineheight=unit(0.7,'cm'),
+             boxsize = sizes,
+             line.margin = 2,
+             is.summary = bolding,
+             align = aligning,
+             ci.vertices = TRUE,
+             txt_gp = fpTxtGp(label =gpar (cex=0.8), 
+                              ticks = gpar(cex = 0.8, fontface="bold"),
+                              summary = gpar(cex = 0.8),
+                              xlab = gpar(cex=0.8)),
+             xticks = xtick,
+             xlog=TRUE,
+             clip = clip,
+             grid = xtick,
+             lwd.xaxis = 1,
+             lwd.ci = 2.2,
+             lwd.zero = 1.5,
+             graphwidth = unit(10,"cm"),
+             col=fpColors(box="black",line="grey", axes="grey20", summary="black", zero = 'dodgerblue4'))
+}
+
+#functions for md
+
+
+md <- function(database){
+  db <- database
+  db <- escalc(measure="MD", 
+               m1i=mean_post1, m2i = mean_post2, 
+               sd1i  = sd_post1, sd2i = sd_post2, 
+               n1i = n1, n2i= n2, data=database)
+  db$vi <- ifelse(is.na(db$vi), 
+                  ((db$mdul_post-db$mdll_post)/((2*abs(qt(0.05/2, db$total-1)))^2)), db$vi)
+  db <- db[order(db$yi),]
+  db <- summary(db)
+  
+  db$md <- paste(formatC(db$yi, format='f', digits =2)," ",
+                 "(",formatC(db$ci.lb, format='f', digits =2),
+                 ",",formatC(db$ci.ub, format='f', digits=2),")") 
+  db$postmean1 <- paste((ifelse(is.na(db$mean_post1), paste("NR"), formatC(db$mean_post1, format='f', digits=1))), '(', (ifelse(is.na(db$sd_post1), paste("NR"),formatC(db$sd_post1, format='f', digits=1))),')')
+  db$postmean2 <- paste((ifelse(is.na(db$mean_post2), paste("NR"), formatC(db$mean_post2, format='f', digits=1))),'(', (ifelse(is.na(db$sd_post2), paste("NR"),formatC(db$sd_post2, format='f', digits=1))),')')
+  
+  ma <- rma(yi, vi, measure='MD', data=db, method='REML', test='knha')
+  
+  db$weights <- weights(ma)
+  db$w <- paste(formatC(db$weights, format='f', digits = 0),'%')
+  
+  list(pre = db, ma = ma)
+}
+
+
+
+table_md <- function(analysis, nstudies, int, comp, outcome, col,
+                     follow=FALSE){
+  
+  authors <- c("Author", analysis$pre$author, 
+               paste("Overall for ", analysis$ma$k, "studies"), 
+               paste("(Tau^2 = ", (formatC(analysis$ma$tau2, digits=2, format="f")), ", df = ", 
+                     (analysis$ma$k - analysis$ma$p),
+                     ", p ", (ifelse(analysis$ma$QEp < 0.001, 
+                                     paste("< 0.001"),
+                                     paste("= ", formatC(analysis$ma$QEp, digits=3, format="f")))),
+                     "; ", "I^2", " = ", (formatC(analysis$ma$I2, digits=1, format="f")), "%)"))
+  comparison <- c("Comparison", analysis$pre$comparison, NA, NA)
+  fu         <- c("Follow-up (months)", analysis$pre$followup, NA, NA)
+  int_pop    <- c(paste(int), analysis$pre$n1, sum(analysis$pre$n1), NA)
+  int_cont   <- c(paste(col), analysis$pre$postmean1, NA, NA)
+  comp_pop   <- c(paste(comp), analysis$pre$n2,sum(analysis$pre$n2), NA)
+  comp_cont  <- c(paste(col), analysis$pre$postmean2, NA, NA)
+  smd        <- c(paste0("Mean Difference (95% CI)"),
+                  analysis$pre$md, 
+                  paste(formatC(analysis$ma$b, format='f', digits =2), 
+                        " (",formatC(analysis$ma$ci.lb, format='f', digits=2),
+                        ",", formatC(analysis$ma$ci.ub, format='f', digits=2), ")"), NA)
+  weight     <- c("Weight (%)", analysis$pre$w, "100 %", NA)
+  
+  
+  ifelse(follow==T,
+         b <- cbind(authors, int_pop, int_cont, comp_pop, comp_cont, fu,  smd, weight),
+         b <- cbind(authors, int_pop, int_cont, comp_pop, comp_cont, smd, weight))
+  
+  ifelse(nstudies>1,
+         b <- rbind(b[1,], NA, NA, b[2:(nrow(b)-1),], b[nrow(b),]),
+         b <- rbind(b[1,], NA, NA, b[2:(nrow(b)-2),], NA))
+  
+  ifelse(nstudies > 1,
+         (c <- structure(list(
+           mean = c(rep(NA, 3), analysis$pre$yi, analysis$ma$b,NA),
+           lower = c(rep(NA, 3), analysis$pre$ci.lb, analysis$ma$ci.lb, NA),
+           upper = c(rep(NA, 3), analysis$pre$ci.ub, analysis$ma$ci.ub, NA)),
+           .Names = c("mean", "lower", "upper"),
+           row.names = c(NA, -1L*nrow(b)),
+           class = "data.frame")),
+         (c <- structure(list(
+           mean = c(rep(NA, 3), analysis$pre$yi, NA),
+           lower = c(rep(NA, 3), analysis$pre$ci.lb, NA),
+           upper = c(rep(NA, 3), analysis$pre$ci.ub, NA)),
+           .Names = c("mean", "lower", "upper"),
+           row.names = c(NA, -1L*nrow(b)),
+           class = "data.frame")))
+  
+  c <- as_tibble(c)
+  
+  list(b = b, c = c)
+} 
+
+
+
+
+
+plotmd_single_studies <- function(words, numbers,  
+                                  xtick, sizes, bolding, aligning, fpPosition,
+                                  lines) {
+  (forestplot(words,
+              graph.pos = fpPosition,
+              zero = 0,
+              numbers,
+              new_page = TRUE,
+              colgap = unit(5, "mm"),
+              hrzl_lines = lines,
+              lineheight=unit(0.7,'cm'),
+              boxsize = sizes,
+              line.margin = 2,
+              is.summary = bolding,
+              align = aligning,
+              ci.vertices = TRUE,
+              txt_gp = fpTxtGp(label =gpar (cex=0.9), 
+                               ticks = gpar(cex = 0.9, fontface="bold"),
+                               summary = gpar(cex = 0.9, fontsize=13),
+                               xlab = gpar(cex=0.9)),
+              xticks = xtick,
+              xlog=FALSE,
+              clip = c(0,1),
+              grid = xtick,
+              lwd.xaxis = 1,
+              lwd.ci = 2.2,
+              lwd.zero = 1.5,
+              graphwidth = unit(10,"cm"),
+              col=fpColors(box=c("black"),line="grey", zero = 'dodgerblue4', axes="grey20", summary='black')))
+}
+
+
+# Figure 2 ABG difference -------------------------------------------------
+abg <- subset(pao, outcome=='ABG')
+abg <- abg[!(abg$refid==55),]
+
+
+md1 <- md(abg)
+tmd1 <- table_md(analysis = md1, nstudies = 4, int = "Canal Wall-Up (n)",
+                 comp = "Canal Wall-Down (n)", outcome = "Air Bone Gap", col = "Mean (SD)",
+                 follow = TRUE)
+
+plot <- plotmd_single_studies(words = tmd1$b,
+                              numbers = tmd1$c, 
+                              fpPosition = ncol(tmd1$b)-1,
+                              xtick = c(-15,-5,5,15),
+                              sizes = c(rep(NA,3), 0.006*(md1$pre$weights+50),1,NA),
+                              bolding = c(T, rep(F,6), T, T),
+                              aligning = c("l", rep("c",4), "l", "l"),
+                              lines = list('3' = gpar (lwd=1, columns=c(1:(ncol(tmd1$b)+1)), col="black")))
+
+# Figure 3 AC difference --------------------------------------------------
+ac <- subset(pao, outcome=='AC')
+
+md2 <- md(ac)
+tmd2 <- table_md(analysis = md2, nstudies = 1, int = "Canal Wall-Up (n)",
+                 comp = "Canal Wall-Down (n)", outcome = "Air Bone Gap",col = "Mean (SD)",
+                 follow = TRUE)
+
+plot <- plotmd_single_studies(words = tmd2$b,
+                              numbers = tmd2$c, 
+                              fpPosition = ncol(tmd2$b)-1,
+                              xtick = c(-25,-15,-5,5,15, 25),
+                              sizes = c(rep(NA,3),1,NA),
+                              bolding = c(T, rep(F,2), F, F),
+                              aligning = c("l", rep("c",4), "l", "l"),
+                              lines = list('3' = gpar (lwd=1, columns=c(1:(ncol(tmd2$b)+1)), col="black")))
+
+
+# Figure 4 Risk of recurrence ---------------------------------------------
+
+#recurrence longest followup
+rcr <- subset(pao, outcome=='recurrence')
+rownames(rcr) <- NULL
+
+#keeping longest follow-up for 763 and only "stage-one" group which is = to recurrence
+rcr <- rcr[-c(7,8,10),]
+
+recu <- rr(rcr)
+
+trecu <- table_rr(analysis = recu,nstudies = 12,follow = TRUE)
+
+plotrr_single_studies(words = trecu$b,
+                      numbers = trecu$c, 
+                      fpPosition =  ncol(trecu$b)-1,
+                      xtick = c(0.1, 0.2, 0.5, 2, 4, 8, 16,32),
+                      clip = c(0.25,8),
+                      sizes = c(rep(NA,3),0.006*(recu$pre$weights+50),1),
+                      bolding = c(T,rep(F,11), T,T),
+                      aligning = c("l", rep("c",2), "l", "l"),
+                      lines = list('3' = gpar (lwd=1, columns=c(1:(ncol(trecu$b)+1)), col="black")))
+
+
+# Figure 5 Risk of Residual tissue ------------------------------------------------
+
+#residual 
+res <- subset(pao, outcome=='residual')
+
+residual <- rr(res)
+
+tresidual <- table_rr(analysis = residual ,nstudies = 10,follow = TRUE)
+
+plotrr_single_studies(words = tresidual$b,
+                      numbers = tresidual$c, 
+                      fpPosition =  ncol(tresidual$b)-1,
+                      xtick = c(0.1, 0.2, 0.5, 2, 4, 8, 16),
+                      clip = c(0.25,8),
+                      sizes = c(rep(NA,3),0.006*(residual$pre$weights+50),1),
+                      bolding = c(T,rep(F,11), T,T),
+                      aligning = c("l", rep("c",2), "l", "l"),
+                      lines = list('3' = gpar (lwd=1, columns=c(1:(ncol(tresidual$b)+1)), col="black")))
+
+
+# FIgure 6 Risk of Recidivism ---------------------------------------------
+
+#meta analysis recidivism longest followup
+prerec <- subset(pao, outcome=='recidivism' | outcome=='recurrence' | outcome=='residual')
+
+rownames(prerec) <- NULL
+
+prerec <- prerec[c(9,11,13:15,17,19:21,22,24,27,31,34,39,41),]
+prerec <- prerec[,c(1,46,2:45)]
+
+prerec <- subset(prerec, outcome=='recidivism')
+
+rec <- prerec
+
+reci <- rr(rec)
+
+
+treci <- table_rr(analysis = reci ,nstudies = 10,follow = TRUE)
+
+plotrr_single_studies(words = treci$b,
+                      numbers = treci$c, 
+                      fpPosition =  ncol(treci$b)-1,
+                      xtick = c(0.25, 0.5, 2, 4, 8),
+                      clip = c(0.25,8),
+                      sizes = c(rep(NA,3),0.006*(reci$pre$weights+50),1),
+                      bolding = c(T,rep(F,9), T,T),
+                      aligning = c("l", rep("c",2), "l", "l"),
+                      lines = list('3' = gpar (lwd=1, columns=c(1:(ncol(treci$b)+1)), col="black")))
+  
