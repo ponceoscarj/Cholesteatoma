@@ -1,0 +1,117 @@
+refid,int,comp,group,outcome,definition,units,fu,total,n1,n2,e1,e2,mean_pre1,sd_pre1,mean_pre2,sd_pre2,mean_post1,sd_post1,mean_post2,sd_post2,mean_ch1,t_ch1,se_ch1,sd_ch1,p_ch1,p_ch1_method,mean_ch2,t_ch2,se_ch2,sd_ch2,p_ch2,p_ch2_method,md_post,mdll_post,mdul_post,d_post,p_post,p_post_method,md_ch,mdll_ch,mdul_ch,d_ch,p_ch,p_ch_method
+55,CWU,CWD,Overall,ABG  0-10 dB,"reported as the four-tone pure-tone average (PTA) (0.5, 1, 2, and 4 KHz) for air conduction minus the same average for bone conduction using air-conduction and bone-conduction values determined at the same time",,,36,22,14,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,ABG  0-20 dB,"reported as the four-tone pure-tone average (PTA) (0.5, 1, 2, and 4 KHz) for air conduction minus the same average for bone conduction using air-conduction and bone-conduction values determined at the same time",,,36,22,14,9,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,ABG 0-30 dB,"reported as the four-tone pure-tone average (PTA) (0.5, 1, 2, and 4 KHz) for air conduction minus the same average for bone conduction using air-conduction and bone-conduction values determined at the same time",,,36,22,14,14,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,6,36,22,14,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,12,36,22,14,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,18,36,22,14,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,24,36,22,14,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,30,36,22,14,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,36,36,22,14,3,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,42,36,22,14,3,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,48,36,22,14,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,Overall,Recidivism,"findings in all patients of cholesteatoma or cholesteatoma-free status at repeat-look surgery (plus subsequent clinical otoscopic detection). for each observation period by dividing the total
+number of recurrences for each observation period by the total
+number of patients in the study",,54,36,22,14,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,CWU,CWD,,AIR BONE GAP,MEAN FOUR TONE PURE TONE,db,0,36,22,14,,,21,,32.9,,25.2,,39,,4.2,1.064.928.977,3.943.924.986,0.84,299,,6.1,1.715.361.007,3.556.102.753,0.95,0.11,,,,,,,,,,,,,
+66,CWU,CWD,"""early period"" group (1982–1990)",residual,No definition,,82,40,16,20,2,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+66,CWU,CWD,"""early period"" group (1982–1990)",recurrence,No definition,,82,40,16,20,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Overall,Residual,pearl-like cholesteatoma in the middle ear cleft behind a reconstructed drum or ear canal growing from a cholesteatoma residuum left at a previous operation.,,,96,51,45,6,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Overall,Recurrence,Recurrent cholesteatoma develops from a deep retraction of either the drum or a rebuilt ear canal. Cholesteatoma developing in a deep cavity is also called recurrent cholesteatoma.,,,96,51,45,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,Absolute Hearing 0-20 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,23,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,Absolute Hearing 0-20 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,16,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,Absolute Hearing 21-30 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,11,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,Absolute Hearing 21-30 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,17,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,Absolute Hearing 31-40 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,6,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,Absolute Hearing 31-40 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,6,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,Absolute Hearing 41-50 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,6,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,Absolute Hearing 41-50 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,4,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,Absolute Hearing >50 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,4,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,Absolute Hearing >50 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,5,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,ABG 0-10 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,16,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,ABG 0-10 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,13,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,ABG 11- 20 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,13,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,ABG 11- 20 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,13,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,ABG 21-30 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,11,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,ABG 21-30 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,13,14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Early postoperative,ABG >30 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,94,50,44,10,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,CWU,CWD,Late postoperative,ABG >30 post db,"pure-tone audiometry in the frequency range of 500 to 2,000 Hz using different evaluation methods as well as speech audiometry",,,92,48,44,9,12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+84,CWU,CWD,Overall,recidivism,"Both residual and recurrent cholesteatomas are designated
+as cholesteatoma recidivism (CR) in this study. Residual
+disease is defined as persistence of cholesteatoma following an incomplete removal. Recurrent cholesteatoma is a newly developed cholesteatoma, usually secondary to a retraction pocket extending into the attic, antrum, mesotympanum, eustachian tube, facial recess.",,44.4,114,35,79,9,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,CWU,CWD,Overall,recurrence,Residual disease is defined as persistence of cholesteatoma following an incomplete removal.,,44.4,58,41,17,9,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,CWU,CWD,Overall,residual,is a newly developed cholesteatoma secondary to a retraction pocket into the mesotympanum or the epitympanudantrum.,,44.4,58,41,17,8,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,CWU,CWD,Overall,ABG  0-10 dB,is a newly developed cholesteatoma secondary to a retraction pocket into the mesotympanum or the epitympanudantrum.,,44.4,58,41,17,12,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,CWU,CWD,Overall,ABG  11-20 dB,is a newly developed cholesteatoma secondary to a retraction pocket into the mesotympanum or the epitympanudantrum.,,44.4,58,41,17,12,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,CWU,CWD,Overall,ABG 21-30 dB,is a newly developed cholesteatoma secondary to a retraction pocket into the mesotympanum or the epitympanudantrum.,,44.4,58,41,17,9,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,CWU,CWD,Overall,ABG > 30 dB,is a newly developed cholesteatoma secondary to a retraction pocket into the mesotympanum or the epitympanudantrum.,,44.4,58,41,17,9,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,CWU,CWD,Overall,AIR BONE GAP,MEAN FOUR TONE PURE TONE,db,44.4,50,36,14,,,,,,,20.3,12.4,22.6,11,,,,,,,,,,,,,,,,,,,,,,,,
+205,CWU,CWD,Overall,recidivism,recurrence or residual disease,,40,54,11,44,5,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+238,CWU,CWD,Overall,residual,No definition,,38.4,33,20,13,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+238,CWU,CWD,Overall,recurrence,No definition,,38.4,33,20,13,0,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+238,CWU,CWD,Overall,ABG 0-20,hearing function evaluated with frequencies between 250 and 4000 Hz.,,38.4,33,20,13,14,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+238,CWU,CWD,Overall,ABG 21-40,hearing function evaluated with frequencies between 250 and 4000 Hz.,,38.4,33,20,13,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+238,CWU,CWD,Overall,ABG >40,hearing function evaluated with frequencies between 250 and 4000 Hz.,,38.4,33,20,13,2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+238,CWU,CWD,Overall,AIR BONE GAP,MEAN FOUR TONE PURE TONE,db,38.4,33,20,13,,,26.8,2.662,31.69,3.525,18.6,2.947,24.38,2.807,8.2,,,3.972,458,the Student t-test,7.308,,,4.506,1.179,the Student t-test,,,,,,,,,,,,
+270,CWU,CWD,Overall,recurrence,No definition,,73.2,22,18,4,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340,CWU,CWD,Overall,recidivism,Recurrence or residual disease rates,,51,90,53,37,24,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340,CWU,CWD,Overall,AC THRESHOLD,"thresholds at 500, 1000, 2000 and 4000 Hz",,51,90,53,37,,,,,,,29.3,,44.9,,-5.3,,,,,,4,,,,,,-15.6,-23.8,-7.5,,,,-9.3,-15,-1.3,,,
+340,CWU,CWD,Overall,AIR BONE GAP,MEAN FOUR TONE PURE TONE,,51,90,53,37,,,32,,35.1,,25.8,,35.6,,-7.6,,,,,,4.2,,,,,Mann-Whitney U,-9.8,-18.8,-1.3,,,,-11.8,-20,-2.5,,,
+343,CWU,CWD,Overall,Recurrence,"Recurrent cholesteatoma was defined as a newly formed disease
+process secondary to a retraction pocket",,72,86,38,48,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+343,CWU,CWD,Overall,Residual,We defined residual disease as persistence of disease after incomplete removal,,72,86,38,48,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+343,CWU,CWD,Overall,Hearing <25 post db,Pure-tone average 25 dB was defined as “good” serviceable hearing. Statistical analysis was done using a t-test and significance was defined as P  .05,,72,86,38,48,34,22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+350,CWU,CWD,Overall,recidivism,"defined recurrence as disease found at the time of second look which included disease purposely left at the time of the first operation (due to oval window involvement, dehiscent facial nerve involvement with extensive granulation tissue, etc.), as well as disease that was felt to have been fully excised but discovered at re-exploration",,60,278,221,57,32,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+350,CWU,CWD,Overall,Otorrhoea,,60,60,278,221,57,4,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,CWU,CWD,Overall,ABG 0-10 post db,"Air-bone gaps were calculated using air conduction and bone conduction thresholds at 500, 1000, 2000, and 4000 Hz",,12,69,26,43,5,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,CWU,CWD,Overall,ABG 11-20 post db,"Air-bone gaps were calculated using air conduction and bone conduction thresholds at 500, 1000, 2000, and 4000 Hz",,12,69,26,43,11,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,CWU,CWD,Overall,ABG 21-30 post db,"Air-bone gaps were calculated using air conduction and bone conduction thresholds at 500, 1000, 2000, and 4000 Hz",,12,69,26,43,5,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,CWU,CWD,Overall,ABG 31-40 post db,"Air-bone gaps were calculated using air conduction and bone conduction thresholds at 500, 1000, 2000, and 4000 Hz",,12,69,26,43,5,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,CWU,CWD,Overall,ABG 41-50 post db,"Air-bone gaps were calculated using air conduction and bone conduction thresholds at 500, 1000, 2000, and 4000 Hz",,12,69,26,43,0,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,CWU,CWD,Overall,ABG >50 post db,"Air-bone gaps were calculated using air conduction and bone conduction thresholds at 500, 1000, 2000, and 4000 Hz",,12,69,26,43,0,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+394,CWU,CWD,Overall,AIR BONE GAP,"calculated using air conduction and bone conduction thresholds at 500, 1000, 2000, and 4000 Hz",,12,69,26,43,,,29.7,11.4,38.3,12.2,19,9.6,29.6,12.5,10.7,,,12.9,,,8.7,,,13.1,,,,,,,,,,,,,,
+833,CWU,CWD,Overall,recidivism,granulation tissue after surgery,,12,55,40,15,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+833,CWU,CWD,Overall,recidivism,granulation tissue after surgery,,24,55,40,15,10,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+833,CWU,CWD,Overall,recidivism,granulation tissue after surgery,,60,55,40,15,15,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+833,CWU,CWD,Overall,Otorrhoea,Discharge of the eardrum,,60,55,40,15,4,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+763,CWU,CWD,Overall,Residual,middle ear mucosa is thick in the antrum and in the mastoid after surgery,,18,99,76,23,34,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+763,CWU,CWD,Stage one,Recurrence,produced by tuba dysfunction,,36,24,16,8,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+763,CWU,CWD,Stage one,Recurrence,produced by tuba dysfunction,,60,24,16,8,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+763,CWU,CWD,Stage one,Recurrence,produced by tuba dysfunction,,120,24,16,8,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+763,CWU,CWD,Stage two after the 1st stage,Recurrence,produced by tuba dysfunction,,12,108,82,26,12,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+763,CWU,CWD,Stage one,ABG ?10dB,No definition,,4,17,12,7,4,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+763,CWU,CWD,Stage one,ABG ?20dB,No definition,,4,17,12,7,6,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,Residual,No definition,,12,43,32,11,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,Recurrence,No definition,,22,43,32,11,5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,ABG ?25dB,"averaging thresholds at 500 Hz, 1 kHz and 2 kHz.",,,43,32,11,17,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,AC 0-10,"averaging thresholds at 500 Hz, 1 kHz and 2 kHz.",,,43,32,11,7,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,AC 10-20,"averaging thresholds at 500 Hz, 1 kHz and 2 kHz.",,,43,32,11,5,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,AC 20-30,"averaging thresholds at 500 Hz, 1 kHz and 2 kHz.",,,43,32,11,8,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,AC 30-40,"averaging thresholds at 500 Hz, 1 kHz and 2 kHz.",,,43,32,11,9,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,AC 40-50,"averaging thresholds at 500 Hz, 1 kHz and 2 kHz.",,,43,32,11,3,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+694,CWU,CWD,Overall,AC 50-60,"averaging thresholds at 500 Hz, 1 kHz and 2 kHz.",,,43,32,11,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+839,CWU,CWD,Overall,Recidivism,Recurrence of cholesteatoma was defined as cholesteatoma in a subsequent surgery on the same ear,,12,79,56,23,8,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+839,CWU,CWD,Overall,Recidivism,Recurrence of cholesteatoma was defined as cholesteatoma in a subsequent surgery on the same ear,,24,79,56,23,18,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+839,CWU,CWD,Overall,Recidivism,Recurrence of cholesteatoma was defined as cholesteatoma in a subsequent surgery on the same ear,,36,79,56,23,26,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+839,CWU,CWD,Overall,Recidivism,Recurrence of cholesteatoma was defined as cholesteatoma in a subsequent surgery on the same ear,,48,79,56,23,30,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+839,CWU,CWD,Overall,Recidivism,Recurrence of cholesteatoma was defined as cholesteatoma in a subsequent surgery on the same ear,,60,79,56,23,32,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+883,CWU,CWD,Residual,Residual,,,84,57,16,39,4,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+883,CWU,CWD,Recurrence,Recurrence,,,84,57,16,39,2,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+883,CWU,CWD,Overall,Otorrhoea,,,84,57,16,39,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+270,CWU,CWD,Overall,RESIDUAL,No definition,,73.2,22,18,4,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
