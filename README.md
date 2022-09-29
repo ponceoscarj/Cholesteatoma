@@ -29,6 +29,9 @@ Solis-Pazmino](https://twitter.com/paosolpaz18)</i>
 <b>Show figure -</b> Differences in <b>Air Bone Gap (db)</b> after
 <b>Canal Wall Up</b> versus <b>Canal Wall Down</b>
 </summary>
+
+![](8%20Forestplots/abg-1.svg)<!-- -->
+
 </details>
 
 ### Figure 3
@@ -38,6 +41,9 @@ Solis-Pazmino](https://twitter.com/paosolpaz18)</i>
 <b>Show figure -</b> Difference in <b>Air Conduction (Hz)</b> after
 <b>Canal Wall Up</b> versus <b>Canal Wall Down</b>
 </summary>
+
+![](8%20Forestplots/ac-1.svg)<!-- -->
+
 </details>
 
 ### Figure 4

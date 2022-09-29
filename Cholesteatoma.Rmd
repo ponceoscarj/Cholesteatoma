@@ -13,7 +13,8 @@ knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = e
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=TRUE)
 knitr::opts_chunk$set(dpi=900)
-knitr::opts_chunk$set(fig.path = "8 Forestplots/", dev='svg') # dev = 'png'
+knitr::opts_chunk$set(fig.path = "8 Forestplots/", dev='svg') 
+
 
 library(webshot)
 library(metafor)
@@ -355,6 +356,7 @@ plotmd_single_studies <- function(words, numbers,
 ## Forest plots
 
 ### Figure 2 
+
 <details><summary><b>Show figure -</b> Differences in <b>Air Bone Gap (db)</b> after <b>Canal Wall Up</b> versus <b>Canal Wall Down</b></summary>
 
 ```{r abg, fig.height=3, fig.width=19, echo=FALSE, message=FALSE, warning=FALSE}
@@ -367,7 +369,7 @@ tmd1 <- table_md(analysis = md1, nstudies = 4, int = "Canal Wall-Up (n)",
                     comp = "Canal Wall-Down (n)", outcome = "Air Bone Gap", col = "Mean (SD)",
                  follow = TRUE)
 
-plot <- plotmd_single_studies(words = tmd1$b,
+plotmd_single_studies(words = tmd1$b,
                       numbers = tmd1$c, 
                       fpPosition = ncol(tmd1$b)-1,
                       xtick = c(-15,-5,5,15),
@@ -393,7 +395,7 @@ tmd2 <- table_md(analysis = md2, nstudies = 1, int = "Canal Wall-Up (n)",
                     comp = "Canal Wall-Down (n)", outcome = "Air Bone Gap",col = "Mean (SD)",
                  follow = TRUE)
 
-plot <- plotmd_single_studies(words = tmd2$b,
+plotmd_single_studies(words = tmd2$b,
                       numbers = tmd2$c, 
                       fpPosition = ncol(tmd2$b)-1,
                       xtick = c(-25,-15,-5,5,15, 25),
@@ -401,6 +403,7 @@ plot <- plotmd_single_studies(words = tmd2$b,
                       bolding = c(T, rep(F,2), F, F),
                       aligning = c("l", rep("c",4), "l", "l"),
                       lines = list('3' = gpar (lwd=1, columns=c(1:(ncol(tmd2$b)+1)), col="black")))
+
 
 ```
 
